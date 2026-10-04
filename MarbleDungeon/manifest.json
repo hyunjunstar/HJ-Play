@@ -1,0 +1,148 @@
+{
+  "images": [
+    {
+      "file": "img/block_jelly_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a strawberry pink jelly cube, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/block_hard_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a lavender jelly cube with a hard candy shell and glossy armor plates at the corners (looks tougher), calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/block_boss_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A big SQUARE crowned king jelly cube monster, magenta and purple, with a small gold crown on top, front view, filling the whole square image edge to edge with only 4% margin. Face in the upper part; lower-center plain smooth jelly. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: the king jelly, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/block_jelly_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a strawberry pink jelly cube, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/block_hard_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a lavender jelly cube with a hard candy shell and glossy armor plates at the corners (looks tougher), squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/block_boss_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A big SQUARE crowned king jelly cube monster, magenta and purple, with a small gold crown on top, front view, filling the whole square image edge to edge with only 4% margin. Face in the upper part; lower-center plain smooth jelly. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: the king jelly, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/block_jelly_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a strawberry pink jelly cube, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/block_hard_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a lavender jelly cube with a hard candy shell and glossy armor plates at the corners (looks tougher), cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/block_boss_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. A big SQUARE crowned king jelly cube monster, magenta and purple, with a small gold crown on top, front view, filling the whole square image edge to edge with only 4% margin. Face in the upper part; lower-center plain smooth jelly. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: the king jelly, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/marble_basic.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a white pearl marble.",
+      "date": "2026-10-04",
+      "size": "64x64"
+    },
+    {
+      "file": "img/marble_fire.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: an orange-red marble with a flame swirl pattern.",
+      "date": "2026-10-04",
+      "size": "64x64"
+    },
+    {
+      "file": "img/marble_bolt.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a yellow marble with a lightning bolt mark.",
+      "date": "2026-10-04",
+      "size": "64x64"
+    },
+    {
+      "file": "img/marble_split.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a mint green marble with a split dual pattern (two halves / twin dots).",
+      "date": "2026-10-04",
+      "size": "64x64"
+    },
+    {
+      "file": "img/pickup_ring.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Centered single pickup icon filling the image with small margin. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a glowing pastel pink-and-lavender jelly ring/hoop, sparkle glow, meaning plus one marble, no text.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/pickup_coin.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Centered single pickup icon filling the image with small margin. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a cute gold coin with an embossed star, jelly glossy, not casino-like.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/fairy_idle.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Character: 'Pangi', a small cute marble fairy with pastel pink hair, tiny translucent wings, a lavender outfit, round big eyes, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: idle, standing and smiling, hovering gently, holding the launcher at her side.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/fairy_shoot.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Character: 'Pangi', a small cute marble fairy with pastel pink hair, tiny translucent wings, a lavender outfit, round big eyes, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: shooting, aiming the launcher forward, pulling it back with a marble loaded, determined face.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/fairy_skill.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Character: 'Pangi', a small cute marble fairy with pastel pink hair, tiny translucent wings, a lavender outfit, round big eyes, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: glowing power pose, arms raised, glowing aura and sparkles, marble floating above, excited face.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/bg_cave.png",
+      "prompt": "Mobile game background, portrait 1170x2532 aspect, cute 2.5D pink jelly cave dungeon, soft low contrast pastel pink and lavender. The central 75% area is simple, smooth and nearly empty (a grid board is drawn on top); decorations only at the left and right edges and top and bottom: jelly stalactites, glowing crystals, small mushrooms. No characters, no text, no UI, no frame.",
+      "date": "2026-10-04",
+      "size": "1170x2532"
+    },
+    {
+      "file": "img/ui_pause.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a pause symbol (two rounded vertical bars), white and lavender jelly.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_recall.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a circular arrow returning with small marbles, meaning recall marbles, mint jelly.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_speed.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a double arrow fast-forward symbol, sky blue jelly.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_coin.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute small gold coin with a star, same style as the pickup coin.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_star.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute yellow jelly star.",
+      "date": "2026-10-04",
+      "size": "128x128"
+    }
+  ]
+}
