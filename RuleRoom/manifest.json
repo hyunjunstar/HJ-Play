@@ -1,0 +1,160 @@
+{
+  "images": [
+    {
+      "file": "img/bg_cat_room.png",
+      "prompt": "Cozy pastel miniature cat's room seen from above at a slight angle, diorama toy style, wooden floor, soft rug, cat toys only at the edges, central area simple and soft, low contrast, no text",
+      "date": "2026-10-04",
+      "size": "1170x2532"
+    },
+    {
+      "file": "img/box_idle.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small wooden toy crate (idle frame)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/box_move.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small wooden toy crate (move frame: slight squash/lean/step pose)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/cat_idle.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small orange-and-cream toy cat, standing facing the viewer (idle frame)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/cat_move.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small orange-and-cream toy cat, standing facing the viewer (move frame: slight squash/lean/step pose)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/flag_idle.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small toy pennant flag on a stick in a little base, yellow-pink (idle frame)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/flag_move.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small toy pennant flag on a stick in a little base, yellow-pink (move frame: slight squash/lean/step pose)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/mascot_cat_happy.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background, the toy orange-and-cream cat, big happy pose with paws up",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/mascot_cat_think.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background, the toy orange-and-cream cat, thinking puzzled pose, paw on chin",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/rock_idle.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: smooth grey-lavender pebble (idle frame)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/rock_move.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: smooth grey-lavender pebble (move frame: slight squash/lean/step pose)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_hint.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: light bulb icon, yellow",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_lock.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small pink-gold padlock icon",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_pause.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: two fat rounded pause bars icon, lavender",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_restart.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: circular refresh arrows icon, green",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_star.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: fat gold star icon",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_star_empty.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: fat grey empty star icon",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_undo.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: fat curved back arrow icon, blue",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/ui_wait.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: hourglass icon",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/wall_idle.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: chunky pastel toy building block filling the whole cell (idle frame)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/wall_move.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: chunky pastel toy building block filling the whole cell (move frame: slight squash/lean/step pose)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/water_idle.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small round flat water puddle (idle frame)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/water_move.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: small round flat water puddle (move frame: slight squash/lean/step pose)",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/word_is.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: rounded square tile frame, bevel, plain flat empty center, white/lavender",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/word_noun.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: rounded square tile frame, bevel, plain flat empty center, cream/peach",
+      "date": "2026-10-04",
+      "size": "128x128"
+    },
+    {
+      "file": "img/word_prop.png",
+      "prompt": "Cute miniature diorama toy, pastel colors, soft top-front lighting, viewed slightly from above, clean rounded silhouette, centered, game sprite, no text, no letters, transparent background. Subject: rounded square tile frame, bevel, plain flat empty center, mint/teal",
+      "date": "2026-10-04",
+      "size": "128x128"
+    }
+  ]
+}
