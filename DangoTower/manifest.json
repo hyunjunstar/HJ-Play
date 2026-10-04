@@ -1,0 +1,214 @@
+{
+ "images": [
+  {
+   "file": "img/dango_01_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. tiny white sesame mochi, milky white with a few tiny black sesame seeds. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_01_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. tiny white sesame mochi, milky white with a few tiny black sesame seeds. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_02_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. pale beige soybean powder (kinako) mochi. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_02_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. pale beige soybean powder (kinako) mochi. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_03_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. soft mugwort green mochi. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_03_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. soft mugwort green mochi. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_04_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. strawberry pink mochi with tiny seeds. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_04_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. strawberry pink mochi with tiny seeds. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_05_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. honey amber yellow glossy mochi. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_05_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. honey amber yellow glossy mochi. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_06_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. deeper matcha green mochi. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_06_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. deeper matcha green mochi. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_07_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. black sesame mochi, lighter grey-charcoal with speckles, still cute. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_07_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. black sesame mochi, lighter grey-charcoal with speckles, still cute. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_08_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. kabocha pumpkin orange mochi. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_08_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. kabocha pumpkin orange mochi. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_09_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. cherry blossom pink mochi with a small petal on top. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_09_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. cherry blossom pink mochi with a small petal on top. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_10_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. pastel rainbow swirl mochi. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_10_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. pastel rainbow swirl mochi. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_11_default.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. glowing pale-gold full moon mochi with a soft halo, the best one, sparkly. Calm happy face (small dot eyes, tiny smile, blush). (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/dango_11_squish.png",
+   "prompt": "Cute chewy mochi dango ball, soft glossy squishy texture, 3D render, pastel, small cute face, perfectly round circle filling the whole frame with tiny margin, centered, front view, no stick, no plate, no text, transparent background. glowing pale-gold full moon mochi with a soft halo, the best one, sparkly. Squished face with squeezed eyes '>_<' and tiny open mouth, same ball shape and size and color. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "512x512"
+  },
+  {
+   "file": "img/cont_frame.png",
+   "prompt": "Front view of a cute wooden lacquered dessert-shop box frame, open at the top, portrait 720x1120 aspect: left wall, right wall and bottom are thick rounded warm wooden borders (about 40px thick), the inside is completely empty and transparent, outside also transparent, no lid, no contents, no text. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "720x1120"
+  },
+  {
+   "file": "img/bg_shop.png",
+   "prompt": "Portrait 1170x2532 background: cozy pastel Japanese wagashi dessert shop interior, warm light, low contrast, soft blurred shelves and noren curtain at the edges, the central area soft, simple and empty. No text, no characters. Full opaque scene. (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "1170x2532"
+  },
+  {
+   "file": "img/card_preview.png",
+   "prompt": "Game card icon: little cute telescope with three small dango in a row peeking out. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_magnet.png",
+   "prompt": "Game card icon: pink horseshoe magnet with a cute dango stuck to it. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_shake.png",
+   "prompt": "Game card icon: cute wooden box shaking with motion lines. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_hammer.png",
+   "prompt": "Game card icon: cute wooden toy mallet. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_shrink.png",
+   "prompt": "Game card icon: tiny sesame dango shrinking and disappearing with sparkles. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_twin.png",
+   "prompt": "Game card icon: two identical cute dango hugging. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_chain.png",
+   "prompt": "Game card icon: chain of linked cute dango with sparkle, combo master feel. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/card_widen.png",
+   "prompt": "Game card icon: cute wooden box with arrows pointing outward left and right. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "256x256"
+  },
+  {
+   "file": "img/ui_pause.png",
+   "prompt": "Game UI icon: cute pastel pause button (two rounded bars) in chewy 3D style. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "128x128"
+  },
+  {
+   "file": "img/ui_star.png",
+   "prompt": "Game UI icon: cute glossy gold star, chewy 3D style. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "128x128"
+  },
+  {
+   "file": "img/ui_crown.png",
+   "prompt": "Game UI icon: cute gold best-score crown, chewy 3D style. cute chewy squishy 3D render, pastel colors, soft glossy, no text, transparent background, centered with small margin (generated via Codex gpt-5.5 $imagegen; post-processed with node)",
+   "date": "2026-10-04",
+   "size": "128x128"
+  }
+ ]
+}
