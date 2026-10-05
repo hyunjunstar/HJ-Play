@@ -16,9 +16,13 @@
 | 폰트 | 출처 | 라이선스 |
 | --- | --- | --- |
 | Pretendard Variable | npm `pretendard` (https://github.com/orioncactus/pretendard), © Kil Hyung-jin | SIL Open Font License 1.1 |
+| Jua(제목·버튼) | npm `@fontsource/jua` (Google Fonts, 우아한형제들) | SIL Open Font License 1.1 |
+| Lilita One(숫자) | npm `@fontsource/lilita-one` (Google Fonts, Juan Montoreano) | SIL Open Font License 1.1 |
 | Fredoka 700 | npm `@fontsource/fredoka` (https://github.com/hafontia/Fredoka-One), © 2016 The Fredoka Project Authors | SIL Open Font License 1.1 |
 
 ## 이미지
+
+> 2026-10-05 아트 바이블(`docs/ART_DIRECTION.md`)에 맞춰 **모든 그림 100장을 다시 만들었다**(캐릭터 9, 블록 27, 구슬 16, 아이콘·픽업 27, 공방 시설 5, 유물 12, 배경 4). 목록·프롬프트는 `tools/image-jobs-v2.mjs`와 `assets/manifest.json`, 이전 그림은 `.shots/art-v1/`에 보관. 아래 표의 파일 이름은 그대로이고 그림만 새 화풍이다.
 
 `assets/img/`의 이미지는 모두 이 프로젝트를 위해 **GPT 이미지 생성으로 만든 것**입니다. 프롬프트·크기·날짜는 `assets/manifest.json`에 있습니다(기획서 10.6 규격). 초록·자홍 단색 배경으로 생성한 뒤 투명 처리했습니다.
 

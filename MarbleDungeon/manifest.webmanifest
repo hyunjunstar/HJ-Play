@@ -7,8 +7,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#2b1330",
-  "theme_color": "#3a1d3f",
+  "background_color": "#1e1230",
+  "theme_color": "#1e1230",
   "icons": [
     { "src": "img/fairy_idle.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
   ]
