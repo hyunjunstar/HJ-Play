@@ -109,10 +109,11 @@
       "size": "512x512"
     },
     {
-      "file": "img/bg_cave.png",
+      "file": "img/bg_cave.webp",
       "prompt": "Mobile game background, portrait 1170x2532 aspect, cute 2.5D pink jelly cave dungeon, soft low contrast pastel pink and lavender. The central 75% area is simple, smooth and nearly empty (a grid board is drawn on top); decorations only at the left and right edges and top and bottom: jelly stalactites, glowing crystals, small mushrooms. No characters, no text, no UI, no frame.",
       "date": "2026-10-04",
-      "size": "1170x2532"
+      "size": "1170x2532",
+      "note": "웹용 WebP(품질 0.86)로 변환"
     },
     {
       "file": "img/ui_pause.png",
@@ -157,6 +158,447 @@
       "date": "2026-10-05",
       "size": "64x64",
       "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 1024 생성 → tools/key-image.ts로 초록 배경 제거·축소. 진화 구슬(불+번개) 연출용, 빛나는 효과"
+    },
+    {
+      "file": "img/marble_ice.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a pale icy-blue marble with a white snowflake pattern and frosty sparkles.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_pierce.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a sleek silver-teal marble with a sharp arrow/spear pattern pointing forward.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_bomb.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a dark navy marble shaped like a cute round bomb with a tiny lit fuse spark and a red stripe.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_heavy.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a heavy dark stone-gray marble with metal bands, looks dense and weighty.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_poison.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a bubbly purple-and-lime marble with a skull-free cute poison droplet pattern and tiny bubbles.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_gold.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: a shiny gold marble with a coin star emblem and glittering sparkles.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_frostbomb.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. This is an EVOLVED marble: richer swirling interior, strong inner glow and sparkles inside the sphere edge. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: FROST BOMB: an icy blue bomb marble wrapped in frost crystals with a glowing white fuse.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_ghost.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. This is an EVOLVED marble: richer swirling interior, strong inner glow and sparkles inside the sphere edge. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: GHOST marble: translucent glowing mint-white marble with three faint ghostly afterimages swirling inside.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_meteor.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. This is an EVOLVED marble: richer swirling interior, strong inner glow and sparkles inside the sphere edge. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: METEOR marble: a fiery molten rock marble with glowing orange cracks and a comet tail swirl.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_spore.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. This is an EVOLVED marble: richer swirling interior, strong inner glow and sparkles inside the sphere edge. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: SPORE marble: a purple marble covered with tiny glowing yellow-orange mushroom spores floating inside.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/marble_luckybolt.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. This is an EVOLVED marble: richer swirling interior, strong inner glow and sparkles inside the sphere edge. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: LUCKY BOLT marble: a golden marble with a bright yellow lightning bolt and spinning coin sparkles.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_splitter_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: twin jelly: a peach-coral jelly cube with a faint vertical seam line down the middle, looks like it could split into two, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_splitter_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: twin jelly: a peach-coral jelly cube with a faint vertical seam line down the middle, looks like it could split into two, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_splitter_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: twin jelly: a peach-coral jelly cube with a faint vertical seam line down the middle, looks like it could split into two, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_healer_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: healer jelly: a soft mint jelly cube with a small white cross/plus mark on its forehead and a gentle aura, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_healer_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: healer jelly: a soft mint jelly cube with a small white cross/plus mark on its forehead and a gentle aura, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_healer_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: healer jelly: a soft mint jelly cube with a small white cross/plus mark on its forehead and a gentle aura, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_mover_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: bouncy jelly: a sky-blue jelly cube with tiny springy feet at the bottom corners and motion lines, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_mover_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: bouncy jelly: a sky-blue jelly cube with tiny springy feet at the bottom corners and motion lines, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_mover_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: bouncy jelly: a sky-blue jelly cube with tiny springy feet at the bottom corners and motion lines, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_chest_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: treasure chest jelly: a jelly cube shaped like a cute wooden treasure chest with gold trim and a keyhole, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_chest_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: treasure chest jelly: a jelly cube shaped like a cute wooden treasure chest with gold trim and a keyhole, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_chest_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: treasure chest jelly: a jelly cube shaped like a cute wooden treasure chest with gold trim and a keyhole, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_shield_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: shield jelly: an icy-teal jelly cube holding a small round shield plate on its bottom side, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_shield_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: shield jelly: an icy-teal jelly cube holding a small round shield plate on its bottom side, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_shield_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: shield jelly: an icy-teal jelly cube holding a small round shield plate on its bottom side, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_bomber_default.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: bomber jelly: an orange-red jelly cube with a little lit fuse on top and warning stripes, calm cute face with two dot eyes and a tiny smile.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_bomber_hit.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: bomber jelly: an orange-red jelly cube with a little lit fuse on top and warning stripes, squeezed shut eyes (> <), slightly squashed and brightened, flash-white highlight.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/block_bomber_break.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. A SQUARE jelly monster block with slightly rounded corners, front view, filling the entire image edge to edge with only 4% margin. Small face in the upper part of the cube; the lower-center area stays plain smooth jelly (a number will be drawn there). Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Subject: bomber jelly: an orange-red jelly cube with a little lit fuse on top and warning stripes, cracked body with small cracks, shocked wide-eyed face with open mouth.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/char_squirrel_idle.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Character: 'Ember', a small cute flame squirrel with fluffy orange-red fur, a curly fire-tipped tail, big round eyes, a tiny scarf, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: idle, standing and smiling, holding the launcher at its side.",
+      "date": "2026-10-05",
+      "size": "512x512",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/char_squirrel_shoot.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Character: 'Ember', a small cute flame squirrel with fluffy orange-red fur, a curly fire-tipped tail, big round eyes, a tiny scarf, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: shooting, aiming the launcher forward, pulling it back with a marble loaded, determined face.",
+      "date": "2026-10-05",
+      "size": "512x512",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/char_squirrel_skill.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Character: 'Ember', a small cute flame squirrel with fluffy orange-red fur, a curly fire-tipped tail, big round eyes, a tiny scarf, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: special skill, arms up in an excited victory pose with sparkles and glowing energy around.",
+      "date": "2026-10-05",
+      "size": "512x512",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/char_pig_idle.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Character: 'Pinky', a small cute piggy-bank pig with pastel pink glossy body, a coin slot on its back, round big eyes, a tiny top hat, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: idle, standing and smiling, holding the launcher at its side.",
+      "date": "2026-10-05",
+      "size": "512x512",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/char_pig_shoot.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Character: 'Pinky', a small cute piggy-bank pig with pastel pink glossy body, a coin slot on its back, round big eyes, a tiny top hat, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: shooting, aiming the launcher forward, pulling it back with a marble loaded, determined face.",
+      "date": "2026-10-05",
+      "size": "512x512",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/char_pig_skill.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Character: 'Pinky', a small cute piggy-bank pig with pastel pink glossy body, a coin slot on its back, round big eyes, a tiny top hat, chibi proportions, holding a slingshot-like marble launcher. Same design in every pose, full body, centered with margin. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Pose: special skill, arms up in an excited victory pose with sparkles and glowing energy around.",
+      "date": "2026-10-05",
+      "size": "512x512",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/bg_lake.webp",
+      "prompt": "Mobile game background, portrait 1170x2532 aspect, cute 2.5D sky-blue frozen jelly lake dungeon, soft low contrast pastel icy blue and white; decorations: ice crystals, frozen jelly pillars, snow drifts, faint aurora light. The central 75% area is simple, smooth and nearly empty (a grid board is drawn on top); decorations only at the left and right edges and top and bottom. No characters, no text, no UI, no frame.",
+      "date": "2026-10-05",
+      "size": "1170x2532",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤 · 웹용 WebP(품질 0.86)로 변환"
+    },
+    {
+      "file": "img/bg_factory.webp",
+      "prompt": "Mobile game background, portrait 1170x2532 aspect, cute 2.5D orange lava jelly factory dungeon, soft low contrast pastel orange and warm brown; decorations: cute pipes, gears, glowing lava jelly pools, conveyor belts. The central 75% area is simple, smooth and nearly empty (a grid board is drawn on top); decorations only at the left and right edges and top and bottom. No characters, no text, no UI, no frame.",
+      "date": "2026-10-05",
+      "size": "1170x2532",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤 · 웹용 WebP(품질 0.86)로 변환"
+    },
+    {
+      "file": "img/bg_village.webp",
+      "prompt": "Mobile game lobby background, portrait 1170x2532 aspect, cute 2.5D underground toy workshop village inside a pink jelly cave: little mushroom houses, a marble workshop with a chimney, lanterns, crystal lights, cozy and inviting, soft pastel pink lavender and warm gold. The lower half center is a calm open plaza with soft ground (UI will be drawn on top). No characters, no text, no UI, no frame.",
+      "date": "2026-10-05",
+      "size": "1170x2532",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤 · 웹용 WebP(품질 0.86)로 변환"
+    },
+    {
+      "file": "img/fac_warehouse.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute marble storage warehouse: a small wooden shed full of colorful marbles in a crate",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/fac_vault.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute round gold vault safe with a big dial and coins peeking out",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/fac_lab.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute alchemy lab: bubbling round flask with a glowing marble inside",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/fac_training.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute training ground: a small target board with a marble slingshot",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/fac_library.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute small library: a stack of magic books with a glowing relic on top",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_key.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute golden key with a pink jelly gem in the handle",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_shop.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute shop stall with a striped pink awning and a marble sign",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_codex.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute thick encyclopedia book with a marble emblem on the cover",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_daily.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute calendar page with a glowing star, meaning daily challenge",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_endless.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute glossy infinity symbol made of pink and lavender jelly",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_adventure.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute dungeon gate entrance with a marble above the door",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_settings.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute pastel gear/cog",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/ui_skill.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute glowing star burst with sparkles, meaning special skill",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_ember_pouch.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a small leather pouch with glowing ember sparks",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_frost_crystal.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a pale blue frost crystal shard",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_lightning_rod.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a small metal lightning rod with a yellow spark",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_lucky_coin.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a four-leaf-clover gold coin",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_boss_hammer.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute heavy toy hammer with a crown mark",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_ring_ring.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute pink jelly ring with a gem",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_mirror.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute round hand mirror with a sparkle",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_firecracker.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute red firecracker with a fuse spark",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_venom_fang.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute purple fang with a magenta poison drop",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_piggy_bank.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute small piggy bank with a coin",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_first_strike.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute marble with a speed swoosh and number one star",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+    },
+    {
+      "file": "img/relic_thick_skin.png",
+      "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute thick translucent jelly bubble shield",
+      "date": "2026-10-05",
+      "size": "128x128",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
     }
   ]
 }

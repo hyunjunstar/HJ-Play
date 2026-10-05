@@ -26,6 +26,7 @@
 | --- | --- | --- |
 | block_*(젤리·딱딱 젤리·보스 × 기본·맞음·부서짐 9장), marble_basic·fire·bolt·split, pickup_ring·coin, fairy_idle·shoot·skill, bg_cave, ui_coin·pause·recall·speed·star | GPT 이미지 생성(2026-10-04), 프롬프트는 manifest.json | 프로젝트 자체 제작(생성 이미지, OpenAI 이용 약관상 출력물 권리는 사용자에게 있음) |
 | ui_finger.png(튜토리얼 손가락), marble_plasma.png(진화 구슬) | GPT 이미지 생성(2026-10-05, Codex `$imagegen`) → `tools/key-image.ts`로 배경 제거·축소 | 위와 같음 |
+| M4·M5 콘텐츠 63장: 구슬 6·진화 구슬 5(marble_*), 블록 6종×3상태(block_splitter·healer·mover·chest·shield·bomber), 캐릭터 2종×3포즈(char_squirrel·pig), 배경 3(bg_lake·factory·village), 공방 시설 5(fac_*), UI 아이콘 8(ui_key·shop·codex·daily·endless·adventure·settings·skill), 유물 12(relic_*) | GPT 이미지 생성(2026-10-05, Codex `$imagegen`, gpt-5.5) → `tools/key-image.ts`로 배경 제거·크기 맞춤. 목록·프롬프트는 `tools/image-jobs.mjs`와 manifest.json. 배경은 웹용 WebP | 위와 같음 |
 | 상태이상 아이콘(화상·얼음·독·번개), 파편·별·고리·물방울·눈송이 입자 | `src/render/scene.ts`에서 PixiJS Graphics로 직접 그림 | 프로젝트 자체 제작 |
 
 ## 코드 라이브러리(참고)

@@ -1,0 +1,15 @@
+{
+  "name": "팡팡 구슬 던전",
+  "short_name": "구슬 던전",
+  "description": "튕기고, 깨고, 연쇄로 터뜨리는 턴제 구슬 로그라이트",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2b1330",
+  "theme_color": "#3a1d3f",
+  "icons": [
+    { "src": "img/fairy_idle.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
