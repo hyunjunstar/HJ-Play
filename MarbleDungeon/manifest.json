@@ -143,6 +143,20 @@
       "prompt": "Cute 2.5D mobile game asset, squishy jelly texture, glossy translucent pastel colors, soft rim light, thick soft outline, pink jelly cave theme. Simple chunky UI icon, centered, filling the image with small margin, readable at small size. Isolated on a perfectly flat solid pure magenta (#FF00FF) background with no gradient and no shadow on the background, no text, no watermark, no frame. Icon: a cute yellow jelly star.",
       "date": "2026-10-04",
       "size": "128x128"
+    },
+    {
+      "file": "img/ui_finger.png",
+      "prompt": "Cute 2.5D mobile game UI asset, a single chubby cartoon hand with the index finger pointing straight UP (finger tip at top center), soft pastel skin tone with a thick soft dark-plum outline, glossy highlight, slight sleeve cuff in pastel pink at the bottom. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow, no text, no watermark, no frame. Fill about 70% of the image height, centered.",
+      "date": "2026-10-05",
+      "size": "256x256",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 1024 생성 → tools/key-image.ts로 초록 배경 제거·축소. 첫 런 튜토리얼 손가락"
+    },
+    {
+      "file": "img/marble_plasma.png",
+      "prompt": "Cute 2.5D mobile game asset, glossy pastel marble, a perfectly round sphere filling the whole square image nearly edge to edge, front view, soft rim light and a bright specular highlight, thin soft outline. Subject: an evolved PLASMA marble - swirling violet and hot orange plasma inside with tiny yellow lightning crackles, strong glowing aura feel inside the sphere edge. Isolated on a perfectly flat solid pure green (#00FF00) background with no gradient and no shadow on the background, no text, no watermark, no frame.",
+      "date": "2026-10-05",
+      "size": "64x64",
+      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 1024 생성 → tools/key-image.ts로 초록 배경 제거·축소. 진화 구슬(불+번개) 연출용, 빛나는 효과"
     }
   ]
 }
