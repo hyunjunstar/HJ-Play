@@ -780,8 +780,7 @@
       "rig": "rigs/char_squirrel_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_squirrel_idle.json",
@@ -789,8 +788,7 @@
       "rig": "rigs/char_squirrel_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_squirrel_shoot.webp",
@@ -798,8 +796,7 @@
       "rig": "rigs/char_squirrel_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_squirrel_shoot.json",
@@ -807,8 +804,7 @@
       "rig": "rigs/char_squirrel_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_pig_idle.webp",
@@ -816,8 +812,7 @@
       "rig": "rigs/char_pig_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_pig_idle.json",
@@ -825,8 +820,7 @@
       "rig": "rigs/char_pig_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_pig_shoot.webp",
@@ -834,8 +828,7 @@
       "rig": "rigs/char_pig_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/char_pig_shoot.json",
@@ -843,8 +836,7 @@
       "rig": "rigs/char_pig_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
-      "lazy": true
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
     },
     {
       "file": "img/anim/portrait_pangi.webp",
@@ -1073,48 +1065,6 @@
       "date": "2026-10-06",
       "size": "512x512",
       "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
-    },
-    {
-      "file": "img/marble_arrow.png",
-      "source": "rigs/proj_arrow.r2d.json",
-      "date": "2026-10-06",
-      "size": "128x128",
-      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
-    },
-    {
-      "file": "img/marble_drill.png",
-      "source": "rigs/proj_drill.r2d.json",
-      "date": "2026-10-06",
-      "size": "128x128",
-      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
-    },
-    {
-      "file": "img/marble_laser.png",
-      "source": "rigs/proj_laser.r2d.json",
-      "date": "2026-10-06",
-      "size": "128x128",
-      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
-    },
-    {
-      "file": "img/marble_firework.png",
-      "source": "rigs/proj_firework.r2d.json",
-      "date": "2026-10-06",
-      "size": "128x128",
-      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
-    },
-    {
-      "file": "img/marble_bubble.png",
-      "source": "rigs/proj_bubble.r2d.json",
-      "date": "2026-10-06",
-      "size": "128x128",
-      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
-    },
-    {
-      "file": "img/marble_boomerang.png",
-      "source": "rigs/proj_boomerang.r2d.json",
-      "date": "2026-10-06",
-      "size": "128x128",
-      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
     }
   ]
 }

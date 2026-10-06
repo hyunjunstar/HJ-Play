@@ -5,8 +5,8 @@
  "rows": 4,
  "frames": 30,
  "pad": 0,
- "feetY": 0.95789,
- "figureH": 0.68421,
+ "feetY": 0.92,
+ "figureH": 0.84,
  "anims": {
   "idle": {
    "from": 0,
