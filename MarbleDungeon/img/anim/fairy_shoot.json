@@ -1,0 +1,36 @@
+{
+ "src": "fairy_shoot.webp",
+ "fw": 256,
+ "cols": 16,
+ "rows": 2,
+ "frames": 18,
+ "pad": 0.03623,
+ "anims": {
+  "idle": {
+   "from": 0,
+   "times": [
+    0,
+    0.15,
+    0.3,
+    0.45,
+    0.6,
+    0.75,
+    0.9,
+    1.05,
+    1.2,
+    1.35,
+    1.5,
+    1.65,
+    1.8,
+    1.85,
+    1.9,
+    1.96,
+    2.1,
+    2.25
+   ],
+   "duration": 2.4,
+   "loop": true
+  }
+ },
+ "rig": "rigs/fairy_shoot.r2d.json"
+}

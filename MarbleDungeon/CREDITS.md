@@ -11,6 +11,12 @@
 | 효과음 전부(발사, 타격(연쇄 음높이 상승), 파괴, 번개, 화상, 얼음, 독, 분열, 링, 코인, 회수, 하강, 경고, 연쇄, 진화, 보스 등장·격파, 층 클리어, 패배, 버튼, 카드, 화면 전환, 숫자 틱) | 코드 합성 | 프로젝트 자체 제작 |
 | 지역별 배경음 3종(분홍 동굴·하늘색 호수·주황 공장) | 코드 합성 스텝 시퀀서(화음 진행·선율·베이스·타악) | 프로젝트 자체 제작 |
 
+## 도구
+
+| 도구 | 출처 | 라이선스 | 쓰임 |
+| --- | --- | --- | --- |
+| Rev2D 0.1.0 (커밋 61d0986) | https://github.com/RevStudio/Rev2D , © RevStudio | MIT | 캐릭터 리그(격자 변형·눈 깜빡임·머리카락 물리) 작성·검증·프레임 렌더. 빌드 도구로만 쓰고 게임에는 구운 그림만 들어간다 |
+
 ## 폰트
 
 | 폰트 | 출처 | 라이선스 |
@@ -21,6 +27,11 @@
 | Fredoka 700 | npm `@fontsource/fredoka` (https://github.com/hafontia/Fredoka-One), © 2016 The Fredoka Project Authors | SIL Open Font License 1.1 |
 
 ## 이미지
+
+> 2026-10-06(캐릭터 4차) 캐릭터 15장을 시안 보드 01-rose-fairy 그림체(부드러운 현대 수집형 RPG 일러스트)로 다시 그렸다. 시안 보드를 참고 이미지로 넣어 GPT 이미지 생성(Codex `$imagegen`, gpt-5.5 · `codex exec -i`), 목록·프롬프트는 `tools/image-jobs-chars-v4.mjs`와 manifest.json. 이전 그림은 `.shots/v4/img-before/`.
+> 같은 날 캐릭터 움직임(홈 일러스트 3, 전투 대기·조준 6)을 **Rev2D**로 리깅해 프레임으로 구웠다(`assets/rigs/*.r2d.json` → `assets/img/anim/*.webp`).
+
+> 2026-10-05(시안 v2) 캐릭터 15장(portrait_*·face_*·fairy_*·char_*)을 성인 판타지 캐릭터로 다시 만들었다. GPT 이미지 생성(Codex `$imagegen`, gpt-5.5), 목록·프롬프트는 `tools/image-jobs-chars-v3.mjs`와 manifest.json. 이전 그림은 `.shots/v2/img-before/`.
 
 > 2026-10-05 아트 바이블(`docs/ART_DIRECTION.md`)에 맞춰 **모든 그림 100장을 다시 만들었다**(캐릭터 9, 블록 27, 구슬 16, 아이콘·픽업 27, 공방 시설 5, 유물 12, 배경 4). 목록·프롬프트는 `tools/image-jobs-v2.mjs`와 `assets/manifest.json`, 이전 그림은 `.shots/art-v1/`에 보관. 아래 표의 파일 이름은 그대로이고 그림만 새 화풍이다.
 

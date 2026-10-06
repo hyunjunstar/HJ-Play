@@ -15,7 +15,8 @@ async function precacheList() {
   }
   try {
     const list = await (await fetch('./manifest.json', { cache: 'no-store' })).json();
-    for (const im of list.images || []) urls.add(`./${im.file}`);
+    // lazy: 크고 한 장만 쓰는 것(홈 일러스트 애니메이션)은 쓸 때 받아 캐시
+    for (const im of list.images || []) if (!im.lazy) urls.add(`./${im.file}`);
   } catch {
     /* 무시 */
   }
