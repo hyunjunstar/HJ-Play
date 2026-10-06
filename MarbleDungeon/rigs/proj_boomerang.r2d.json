@@ -1,0 +1,65 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "proj_boomerang",
+  "width": 128,
+  "height": 128,
+  "author": "팡팡 구슬 던전 (tools/rig/projectile-icons.ts)",
+  "description": "부메랑: 주황 ㅅ자 나무 + 줄무늬"
+ },
+ "parts": [
+  {
+   "id": "wood",
+   "shape": {
+    "type": "path",
+    "d": "M 18 102 C 22 62 40 32 64 14 C 88 32 106 62 110 102 C 104 110 94 110 90 104 C 86 74 76 54 64 42 C 52 54 42 74 38 104 C 34 110 24 110 18 102 Z"
+   },
+   "fill": "#FFB347",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "stripeL",
+   "shape": {
+    "type": "path",
+    "d": "M 30 80 L 46 86"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "#E07A1F",
+    "width": 6
+   },
+   "z": 2
+  },
+  {
+   "id": "stripeR",
+   "shape": {
+    "type": "path",
+    "d": "M 98 80 L 82 86"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "#E07A1F",
+    "width": 6
+   },
+   "z": 2
+  },
+  {
+   "id": "knot",
+   "shape": {
+    "type": "ellipse",
+    "cx": 64,
+    "cy": 26,
+    "rx": 6,
+    "ry": 6
+   },
+   "fill": "#E07A1F",
+   "z": 2
+  }
+ ]
+}

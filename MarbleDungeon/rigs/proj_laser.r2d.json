@@ -1,0 +1,56 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "proj_laser",
+  "width": 128,
+  "height": 128,
+  "author": "팡팡 구슬 던전 (tools/rig/projectile-icons.ts)",
+  "description": "레이저: 분홍 빛 막대 + 흰 심"
+ },
+ "parts": [
+  {
+   "id": "beam",
+   "shape": {
+    "type": "rect",
+    "x": 46,
+    "y": 6,
+    "w": 36,
+    "h": 116,
+    "radius": 18
+   },
+   "fill": "#FF4F8B",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "core",
+   "shape": {
+    "type": "rect",
+    "x": 57,
+    "y": 16,
+    "w": 14,
+    "h": 96,
+    "radius": 7
+   },
+   "fill": "#FFF4FA",
+   "z": 2
+  },
+  {
+   "id": "spark",
+   "shape": {
+    "type": "ellipse",
+    "cx": 64,
+    "cy": 20,
+    "rx": 10,
+    "ry": 10
+   },
+   "fill": "#FFFFFF",
+   "z": 3
+  }
+ ]
+}

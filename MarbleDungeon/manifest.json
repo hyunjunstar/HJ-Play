@@ -1073,6 +1073,48 @@
       "date": "2026-10-06",
       "size": "512x512",
       "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/marble_arrow.png",
+      "source": "rigs/proj_arrow.r2d.json",
+      "date": "2026-10-06",
+      "size": "128x128",
+      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/marble_drill.png",
+      "source": "rigs/proj_drill.r2d.json",
+      "date": "2026-10-06",
+      "size": "128x128",
+      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/marble_laser.png",
+      "source": "rigs/proj_laser.r2d.json",
+      "date": "2026-10-06",
+      "size": "128x128",
+      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/marble_firework.png",
+      "source": "rigs/proj_firework.r2d.json",
+      "date": "2026-10-06",
+      "size": "128x128",
+      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/marble_bubble.png",
+      "source": "rigs/proj_bubble.r2d.json",
+      "date": "2026-10-06",
+      "size": "128x128",
+      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/marble_boomerang.png",
+      "source": "rigs/proj_boomerang.r2d.json",
+      "date": "2026-10-06",
+      "size": "128x128",
+      "note": "Rev2D 벡터 모델 렌더(tools/rig/projectile-icons.ts) — 그림 생성 아님"
     }
   ]
 }

@@ -1,0 +1,82 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "proj_arrow",
+  "width": 128,
+  "height": 128,
+  "author": "팡팡 구슬 던전 (tools/rig/projectile-icons.ts)",
+  "description": "화살: 나무 살 + 은빛 촉 + 분홍 깃"
+ },
+ "parts": [
+  {
+   "id": "shaft",
+   "shape": {
+    "type": "rect",
+    "x": 59,
+    "y": 30,
+    "w": 10,
+    "h": 80,
+    "radius": 5
+   },
+   "fill": "#C8925A",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "fletchL",
+   "shape": {
+    "type": "path",
+    "d": "M 59 86 L 40 104 L 40 122 L 59 106 Z"
+   },
+   "fill": "#FF5C93",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 2
+  },
+  {
+   "id": "fletchR",
+   "shape": {
+    "type": "path",
+    "d": "M 69 86 L 88 104 L 88 122 L 69 106 Z"
+   },
+   "fill": "#FF5C93",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 2
+  },
+  {
+   "id": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 64 6 L 84 40 L 64 34 L 44 40 Z"
+   },
+   "fill": "#E6EEF7",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 3
+  },
+  {
+   "id": "headShade",
+   "shape": {
+    "type": "path",
+    "d": "M 64 6 L 84 40 L 64 34 Z"
+   },
+   "fill": "#AFC0D4",
+   "z": 3.1
+  }
+ ]
+}

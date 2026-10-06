@@ -1,0 +1,64 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "proj_bubble",
+  "width": 128,
+  "height": 128,
+  "author": "팡팡 구슬 던전 (tools/rig/projectile-icons.ts)",
+  "description": "물방울: 투명한 하늘색 방울 + 반사광"
+ },
+ "parts": [
+  {
+   "id": "drop",
+   "shape": {
+    "type": "path",
+    "d": "M 64 6 C 84 34 106 58 106 82 C 106 106 88 122 64 122 C 40 122 22 106 22 82 C 22 58 44 34 64 6 Z"
+   },
+   "fill": "#8FD8FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "inner",
+   "shape": {
+    "type": "ellipse",
+    "cx": 70,
+    "cy": 90,
+    "rx": 26,
+    "ry": 22
+   },
+   "fill": "#BDE9FF",
+   "z": 1.5
+  },
+  {
+   "id": "shine",
+   "shape": {
+    "type": "ellipse",
+    "cx": 46,
+    "cy": 72,
+    "rx": 8,
+    "ry": 14,
+    "rotation": -20
+   },
+   "fill": "#FFFFFF",
+   "z": 2
+  },
+  {
+   "id": "shine2",
+   "shape": {
+    "type": "ellipse",
+    "cx": 54,
+    "cy": 100,
+    "rx": 4,
+    "ry": 4
+   },
+   "fill": "#FFFFFF",
+   "z": 2
+  }
+ ]
+}

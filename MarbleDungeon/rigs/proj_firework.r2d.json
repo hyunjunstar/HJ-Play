@@ -1,0 +1,100 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "proj_firework",
+  "width": 128,
+  "height": 128,
+  "author": "팡팡 구슬 던전 (tools/rig/projectile-icons.ts)",
+  "description": "폭죽: 빨간 로켓 + 노란 머리 + 불꽃 꼬리"
+ },
+ "parts": [
+  {
+   "id": "flame",
+   "shape": {
+    "type": "path",
+    "d": "M 52 104 C 52 116 58 124 64 126 C 70 124 76 116 76 104 Z"
+   },
+   "fill": "#FFC93C",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 0
+  },
+  {
+   "id": "finL",
+   "shape": {
+    "type": "path",
+    "d": "M 44 78 L 30 100 L 46 98 Z"
+   },
+   "fill": "#3DDC97",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "finR",
+   "shape": {
+    "type": "path",
+    "d": "M 84 78 L 98 100 L 82 98 Z"
+   },
+   "fill": "#3DDC97",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "body",
+   "shape": {
+    "type": "rect",
+    "x": 42,
+    "y": 34,
+    "w": 44,
+    "h": 68,
+    "radius": 12
+   },
+   "fill": "#FF6B6B",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 2
+  },
+  {
+   "id": "stripe",
+   "shape": {
+    "type": "rect",
+    "x": 42,
+    "y": 60,
+    "w": 44,
+    "h": 10,
+    "radius": 0
+   },
+   "fill": "#FFF8EE",
+   "z": 2.1
+  },
+  {
+   "id": "nose",
+   "shape": {
+    "type": "path",
+    "d": "M 64 4 L 88 38 L 40 38 Z"
+   },
+   "fill": "#FFC93C",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 6,
+    "join": "round"
+   },
+   "z": 3
+  }
+ ]
+}
