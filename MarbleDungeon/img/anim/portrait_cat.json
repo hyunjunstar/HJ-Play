@@ -1,5 +1,5 @@
 {
- "src": "portrait_pangi.webp",
+ "src": "portrait_cat.webp",
  "fw": 512,
  "cols": 8,
  "rows": 4,
@@ -46,5 +46,5 @@
    "loop": true
   }
  },
- "rig": "rigs/pangi.r2d.json"
+ "rig": "rigs/cat.r2d.json"
 }

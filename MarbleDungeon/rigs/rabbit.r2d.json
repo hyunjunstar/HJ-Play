@@ -1,0 +1,2496 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "rabbit",
+  "width": 380,
+  "height": 380,
+  "fps": 30,
+  "author": "팡팡 구슬 던전 (tools/rig/casual-model.ts)",
+  "description": "캐주얼 캐릭터 rabbit: 벡터 도형 + 뼈대 리그. docs/ART_STYLE.md 4절"
+ },
+ "parameters": [
+  {
+   "id": "EyeOpen",
+   "min": 0,
+   "max": 1,
+   "default": 1,
+   "group": "Face",
+   "description": "눈 뜸(0 감음 ‿)"
+  },
+  {
+   "id": "Happy",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "group": "Face",
+   "description": "웃는 눈 ∩"
+  },
+  {
+   "id": "Mouth",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "group": "Face",
+   "description": "입 벌림"
+  },
+  {
+   "id": "Hurt",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "group": "Face",
+   "description": "아픈 입·땀"
+  },
+  {
+   "id": "Pull",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "group": "Sling",
+   "description": "고무줄 당김"
+  }
+ ],
+ "bones": [
+  {
+   "id": "root",
+   "x": 190,
+   "y": 364,
+   "description": "발끝(숨쉬기·착지 찌그러짐 중심)"
+  },
+  {
+   "id": "hips",
+   "parent": "root",
+   "x": 0,
+   "y": -110,
+   "description": "몸통(기울기)"
+  },
+  {
+   "id": "head",
+   "parent": "hips",
+   "x": 0,
+   "y": -60,
+   "description": "목(고개)"
+  },
+  {
+   "id": "armR",
+   "parent": "hips",
+   "x": -24,
+   "y": -48,
+   "rotation": 105,
+   "length": 40,
+   "description": "화면 왼쪽 팔"
+  },
+  {
+   "id": "armL",
+   "parent": "hips",
+   "x": 24,
+   "y": -48,
+   "rotation": 75,
+   "length": 40,
+   "description": "화면 오른쪽 팔(새총)"
+  },
+  {
+   "id": "sling",
+   "parent": "armL",
+   "x": 40,
+   "y": 0,
+   "description": "새총(팔과 반대로 돌려 위를 향하게 유지)"
+  },
+  {
+   "id": "earR",
+   "parent": "head",
+   "x": -14,
+   "y": -76
+  },
+  {
+   "id": "earL",
+   "parent": "head",
+   "x": 14,
+   "y": -76
+  }
+ ],
+ "parts": [
+  {
+   "id": "hairBack",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 142 162 C 136 122 160 102 190 102 C 220 102 244 122 238 162 C 244 200 250 236 241 264 C 235 271 226 269 222 260 L 158 260 C 154 269 145 271 139 264 C 130 236 136 200 142 162 Z"
+   },
+   "fill": "#EAF4FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 1
+  },
+  {
+   "id": "hairBackShade",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 190,
+    "cy": 256,
+    "rx": 60,
+    "ry": 22
+   },
+   "fill": "#B5D0EE",
+   "mask": [
+    "hairBack"
+   ],
+   "z": 1.2
+  },
+  {
+   "id": "legR",
+   "parent": "root",
+   "shape": {
+    "type": "rect",
+    "x": 175,
+    "y": 288,
+    "w": 13,
+    "h": 56,
+    "radius": 6
+   },
+   "fill": "#EAF4FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 2
+  },
+  {
+   "id": "legL",
+   "parent": "root",
+   "shape": {
+    "type": "rect",
+    "x": 192,
+    "y": 288,
+    "w": 13,
+    "h": 56,
+    "radius": 6
+   },
+   "fill": "#EAF4FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 2
+  },
+  {
+   "id": "bootR",
+   "parent": "root",
+   "shape": {
+    "type": "rect",
+    "x": 170,
+    "y": 338,
+    "w": 21,
+    "h": 26,
+    "radius": 8
+   },
+   "fill": "#2B3F7A",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 2.2
+  },
+  {
+   "id": "bootL",
+   "parent": "root",
+   "shape": {
+    "type": "rect",
+    "x": 189,
+    "y": 338,
+    "w": 21,
+    "h": 26,
+    "radius": 8
+   },
+   "fill": "#2B3F7A",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 2.2
+  },
+  {
+   "id": "bottom",
+   "parent": "hips",
+   "shape": {
+    "type": "path",
+    "d": "M 162 248 L 218 248 L 233 290 C 234 296 230 300 224 300 L 156 300 C 150 300 146 296 147 290 Z"
+   },
+   "fill": "#2B3F7A",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 3
+  },
+  {
+   "id": "bottomShade",
+   "parent": "hips",
+   "shape": {
+    "type": "rect",
+    "x": 138,
+    "y": 284,
+    "w": 104,
+    "h": 20,
+    "radius": 0
+   },
+   "fill": "#1E2D5C",
+   "mask": [
+    "bottom"
+   ],
+   "z": 3.2
+  },
+  {
+   "id": "neck",
+   "parent": "head",
+   "shape": {
+    "type": "rect",
+    "x": 182,
+    "y": 184,
+    "w": 16,
+    "h": 18,
+    "radius": 6
+   },
+   "fill": "#F4C6B8",
+   "z": 3.5
+  },
+  {
+   "id": "torso",
+   "parent": "hips",
+   "shape": {
+    "type": "path",
+    "d": "M 170 196 L 210 196 C 218 196 221 202 221 210 L 223 246 C 223 253 218 257 212 257 L 168 257 C 162 257 157 253 157 246 L 159 210 C 159 202 162 196 170 196 Z"
+   },
+   "fill": "#4FA8E8",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 4
+  },
+  {
+   "id": "torsoShade",
+   "parent": "hips",
+   "shape": {
+    "type": "rect",
+    "x": 202,
+    "y": 192,
+    "w": 30,
+    "h": 70,
+    "radius": 0
+   },
+   "fill": "#3487C8",
+   "mask": [
+    "torso"
+   ],
+   "z": 4.2
+  },
+  {
+   "id": "belt",
+   "parent": "hips",
+   "shape": {
+    "type": "rect",
+    "x": 158,
+    "y": 244,
+    "w": 64,
+    "h": 7,
+    "radius": 3
+   },
+   "fill": "#6B3E22",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 4.4
+  },
+  {
+   "id": "bowR",
+   "parent": "hips",
+   "shape": {
+    "type": "path",
+    "d": "M 190 203 L 179 197 L 180 209 Z"
+   },
+   "fill": "#8FD8FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 4.6
+  },
+  {
+   "id": "bowL",
+   "parent": "hips",
+   "shape": {
+    "type": "path",
+    "d": "M 190 203 L 201 197 L 200 209 Z"
+   },
+   "fill": "#8FD8FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 4.6
+  },
+  {
+   "id": "bowKnot",
+   "parent": "hips",
+   "shape": {
+    "type": "ellipse",
+    "cx": 190,
+    "cy": 203,
+    "rx": 3.6,
+    "ry": 3.6
+   },
+   "fill": "#8FD8FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 4.7
+  },
+  {
+   "id": "collar",
+   "parent": "hips",
+   "shape": {
+    "type": "ellipse",
+    "cx": 190,
+    "cy": 199,
+    "rx": 25,
+    "ry": 7
+   },
+   "fill": "#FFFFFF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 4.5
+  },
+  {
+   "id": "armR",
+   "parent": "armR",
+   "shape": {
+    "type": "path",
+    "d": "M 160.2 204.45 L 149.85 243.08 C 147.79 250.79 159.38 253.9 161.44 246.19 L 171.8 207.55 C 173.86 199.84 162.27 196.74 160.2 204.45 Z"
+   },
+   "fill": "#4FA8E8",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 8.5
+  },
+  {
+   "id": "handR",
+   "parent": "armR",
+   "shape": {
+    "type": "ellipse",
+    "cx": 155.64723819589915,
+    "cy": 244.63703305156272,
+    "rx": 6.5,
+    "ry": 6.5
+   },
+   "fill": "#FFE6DA",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 8.6
+  },
+  {
+   "id": "armL",
+   "parent": "armL",
+   "shape": {
+    "type": "path",
+    "d": "M 208.2 207.55 L 218.56 246.19 C 220.62 253.9 232.21 250.79 230.15 243.08 L 219.8 204.45 C 217.73 196.74 206.14 199.84 208.2 207.55 Z"
+   },
+   "fill": "#4FA8E8",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 8.5
+  },
+  {
+   "id": "slingGrip",
+   "parent": "sling",
+   "shape": {
+    "type": "path",
+    "d": "M 227.83 249.04 L 230.83 227.04 C 231.36 223.09 225.42 222.28 224.88 226.23 L 221.88 248.23 C 221.34 252.19 227.29 253 227.83 249.04 Z"
+   },
+   "fill": "#8B5A2B",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 14
+  },
+  {
+   "id": "prongR",
+   "parent": "sling",
+   "shape": {
+    "type": "path",
+    "d": "M 230.18 227.47 L 222.18 211.47 C 220.63 208.38 215.98 210.71 217.53 213.8 L 225.53 229.8 C 227.07 232.89 231.72 230.57 230.18 227.47 Z"
+   },
+   "fill": "#F2B33D",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 14.1
+  },
+  {
+   "id": "prongL",
+   "parent": "sling",
+   "shape": {
+    "type": "path",
+    "d": "M 230.12 229.91 L 239.12 213.91 C 240.81 210.9 236.28 208.35 234.59 211.36 L 225.59 227.36 C 223.89 230.38 228.42 232.93 230.12 229.91 Z"
+   },
+   "fill": "#F2B33D",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 14.1
+  },
+  {
+   "id": "band",
+   "parent": "sling",
+   "shape": {
+    "type": "path",
+    "d": "M 219.85 212.64 Q 228.35 220.64 236.85 212.64"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "#E23D4F",
+    "width": 2.6
+   },
+   "z": 14.2
+  },
+  {
+   "id": "marble",
+   "parent": "sling",
+   "shape": {
+    "type": "ellipse",
+    "cx": 228.35276180410082,
+    "cy": 217.63703305156272,
+    "rx": 3.6,
+    "ry": 3.6
+   },
+   "fill": "#7FD3FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "z": 14.3
+  },
+  {
+   "id": "handL",
+   "parent": "armL",
+   "shape": {
+    "type": "ellipse",
+    "cx": 224.35276180410082,
+    "cy": 244.63703305156272,
+    "rx": 6.5,
+    "ry": 6.5
+   },
+   "fill": "#FFE6DA",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 14.5
+  },
+  {
+   "id": "face",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 190,
+    "cy": 160,
+    "rx": 38,
+    "ry": 35
+   },
+   "fill": "#FFE6DA",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 6
+  },
+  {
+   "id": "faceShade",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 190,
+    "cy": 130,
+    "rx": 42,
+    "ry": 16
+   },
+   "fill": "#F4C6B8",
+   "mask": [
+    "face"
+   ],
+   "z": 6.1
+  },
+  {
+   "id": "blushR",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 166,
+    "cy": 174,
+    "rx": 7,
+    "ry": 4
+   },
+   "fill": "rgba(255, 110, 150, 0.45)",
+   "z": 6.2
+  },
+  {
+   "id": "blushL",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 214,
+    "cy": 174,
+    "rx": 7,
+    "ry": 4
+   },
+   "fill": "rgba(255, 110, 150, 0.45)",
+   "z": 6.2
+  },
+  {
+   "id": "eyeWhiteR",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 175,
+    "cy": 163,
+    "rx": 8.5,
+    "ry": 10
+   },
+   "fill": "#FFFFFF",
+   "z": 7
+  },
+  {
+   "id": "irisR",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 175,
+    "cy": 164.5,
+    "rx": 6.6,
+    "ry": 8
+   },
+   "fill": "#2FA8E0",
+   "mask": [
+    "eyeWhiteR"
+   ],
+   "z": 7.1
+  },
+  {
+   "id": "pupilR",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 175,
+    "cy": 165,
+    "rx": 3,
+    "ry": 4.2
+   },
+   "fill": "#3A1B3F",
+   "mask": [
+    "eyeWhiteR"
+   ],
+   "z": 7.2
+  },
+  {
+   "id": "shineR",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 177.4,
+    "cy": 160.4,
+    "rx": 2.4,
+    "ry": 2.4
+   },
+   "fill": "#FFFFFF",
+   "mask": [
+    "eyeWhiteR"
+   ],
+   "z": 7.3
+  },
+  {
+   "id": "shine2R",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 172.6,
+    "cy": 167,
+    "rx": 1.1,
+    "ry": 1.1
+   },
+   "fill": "#FFFFFF",
+   "mask": [
+    "eyeWhiteR"
+   ],
+   "z": 7.3
+  },
+  {
+   "id": "lashR",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 164.5 160 C 169 151 181 150.5 185 157 C 181 153.5 169 154.5 164.5 160 Z"
+   },
+   "fill": "#3A1B3F",
+   "z": 7.4
+  },
+  {
+   "id": "browR",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 167 149 Q 175 144.5 182 147.5"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.4
+   },
+   "z": 7.5
+  },
+  {
+   "id": "eyeWhiteL",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 205,
+    "cy": 163,
+    "rx": 8.5,
+    "ry": 10
+   },
+   "fill": "#FFFFFF",
+   "z": 7
+  },
+  {
+   "id": "irisL",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 205,
+    "cy": 164.5,
+    "rx": 6.6,
+    "ry": 8
+   },
+   "fill": "#2FA8E0",
+   "mask": [
+    "eyeWhiteL"
+   ],
+   "z": 7.1
+  },
+  {
+   "id": "pupilL",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 205,
+    "cy": 165,
+    "rx": 3,
+    "ry": 4.2
+   },
+   "fill": "#3A1B3F",
+   "mask": [
+    "eyeWhiteL"
+   ],
+   "z": 7.2
+  },
+  {
+   "id": "shineL",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 202.6,
+    "cy": 160.4,
+    "rx": 2.4,
+    "ry": 2.4
+   },
+   "fill": "#FFFFFF",
+   "mask": [
+    "eyeWhiteL"
+   ],
+   "z": 7.3
+  },
+  {
+   "id": "shine2L",
+   "parent": "head",
+   "shape": {
+    "type": "ellipse",
+    "cx": 207.4,
+    "cy": 167,
+    "rx": 1.1,
+    "ry": 1.1
+   },
+   "fill": "#FFFFFF",
+   "mask": [
+    "eyeWhiteL"
+   ],
+   "z": 7.3
+  },
+  {
+   "id": "lashL",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 215.5 160 C 211 151 199 150.5 195 157 C 199 153.5 211 154.5 215.5 160 Z"
+   },
+   "fill": "#3A1B3F",
+   "z": 7.4
+  },
+  {
+   "id": "browL",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 213 149 Q 205 144.5 198 147.5"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.4
+   },
+   "z": 7.5
+  },
+  {
+   "id": "mouth",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 184 177 C 187 181.5 193 181.5 196 177 C 193 179.6 187 179.6 184 177 Z"
+   },
+   "fill": "#8A2442",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 1.4,
+    "join": "round"
+   },
+   "z": 7.6
+  },
+  {
+   "id": "sweat",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 232 130 C 226 140 228 148 233 148 C 238 148 240 140 232 130 Z"
+   },
+   "fill": "#9FE3FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 2.8,
+    "join": "round"
+   },
+   "opacity": 0,
+   "z": 13
+  },
+  {
+   "id": "bangs",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 148 154 C 147 121 166 109 190 109 C 214 109 233 121 232 154 C 226 146 220 143 214 148 C 209 139 200 137 194 145 C 187 135 176 137 171 146 C 164 141 154 144 148 154 Z"
+   },
+   "fill": "#EAF4FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 8
+  },
+  {
+   "id": "lockR",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 148 148 C 141 165 142 182 150 195 C 154 184 154 167 156 153 Z"
+   },
+   "fill": "#EAF4FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 8.1
+  },
+  {
+   "id": "lockL",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 232 148 C 239 165 238 182 230 195 C 226 184 226 167 224 153 Z"
+   },
+   "fill": "#EAF4FF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 8.1
+  },
+  {
+   "id": "shine",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 167 120 Q 190 113 213 120"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "rgba(255, 255, 255, 0.6)",
+    "width": 3.4
+   },
+   "z": 8.2
+  },
+  {
+   "id": "earR",
+   "parent": "earR",
+   "shape": {
+    "type": "ellipse",
+    "cx": 176,
+    "cy": 86,
+    "rx": 8.5,
+    "ry": 25,
+    "rotation": -10
+   },
+   "fill": "#FFFFFF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 0.8
+  },
+  {
+   "id": "earInR",
+   "parent": "earR",
+   "shape": {
+    "type": "ellipse",
+    "cx": 176.5,
+    "cy": 89,
+    "rx": 4,
+    "ry": 17,
+    "rotation": -10
+   },
+   "fill": "#FFC2D6",
+   "z": 0.9
+  },
+  {
+   "id": "earL",
+   "parent": "earL",
+   "shape": {
+    "type": "ellipse",
+    "cx": 204,
+    "cy": 86,
+    "rx": 8.5,
+    "ry": 25,
+    "rotation": 10
+   },
+   "fill": "#FFFFFF",
+   "stroke": {
+    "color": "#3A1B3F",
+    "width": 4,
+    "join": "round"
+   },
+   "z": 0.8
+  },
+  {
+   "id": "earInL",
+   "parent": "earL",
+   "shape": {
+    "type": "ellipse",
+    "cx": 203.5,
+    "cy": 89,
+    "rx": 4,
+    "ry": 17,
+    "rotation": 10
+   },
+   "fill": "#FFC2D6",
+   "z": 0.9
+  },
+  {
+   "id": "snow",
+   "parent": "head",
+   "shape": {
+    "type": "path",
+    "d": "M 222 126 L 230 126 M 226 122 L 226 130 M 223 123 L 229 129 M 229 123 L 223 129"
+   },
+   "fill": "transparent",
+   "stroke": {
+    "color": "#8FD8FF",
+    "width": 2.2
+   },
+   "z": 9
+  }
+ ],
+ "bindings": [
+  {
+   "id": "lashRShape",
+   "target": "part:lashR.shape.d",
+   "params": [
+    "EyeOpen",
+    "Happy"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": "M 165 164 C 170 169.5 180 169.5 185 163 C 180 166.6 170 166.6 165 164 Z"
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": "M 164.5 160 C 169 151 181 150.5 185 157 C 181 153.5 169 154.5 164.5 160 Z"
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": "M 165 166 C 170 157.5 180 157.5 185 165 C 180 161 170 161 165 166 Z"
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": "M 165 166 C 170 157.5 180 157.5 185 165 C 180 161 170 161 165 166 Z"
+    }
+   ]
+  },
+  {
+   "id": "eyeROpen",
+   "target": "part:eyeWhiteR.shape.ry",
+   "params": [
+    "EyeOpen",
+    "Happy"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": 0.6
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": 10
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": 0.6
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": 0.6
+    }
+   ]
+  },
+  {
+   "id": "lashLShape",
+   "target": "part:lashL.shape.d",
+   "params": [
+    "EyeOpen",
+    "Happy"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": "M 215 164 C 210 169.5 200 169.5 195 163 C 200 166.6 210 166.6 215 164 Z"
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": "M 215.5 160 C 211 151 199 150.5 195 157 C 199 153.5 211 154.5 215.5 160 Z"
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": "M 215 166 C 210 157.5 200 157.5 195 165 C 200 161 210 161 215 166 Z"
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": "M 215 166 C 210 157.5 200 157.5 195 165 C 200 161 210 161 215 166 Z"
+    }
+   ]
+  },
+  {
+   "id": "eyeLOpen",
+   "target": "part:eyeWhiteL.shape.ry",
+   "params": [
+    "EyeOpen",
+    "Happy"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": 0.6
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": 10
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": 0.6
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": 0.6
+    }
+   ]
+  },
+  {
+   "id": "mouthShape",
+   "target": "part:mouth.shape.d",
+   "params": [
+    "Mouth",
+    "Hurt"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": "M 184 177 C 187 181.5 193 181.5 196 177 C 193 179.6 187 179.6 184 177 Z"
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": "M 182.5 175.5 C 184.5 186.5 195.5 186.5 197.5 175.5 C 193 177.6 187 177.6 182.5 175.5 Z"
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": "M 184 181 C 187 176.8 193 176.8 196 181 C 193 179.4 187 179.4 184 181 Z"
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": "M 183 184 C 185 173.5 195 173.5 197 184 C 193 181.6 187 181.6 183 184 Z"
+    }
+   ]
+  },
+  {
+   "id": "sweatOn",
+   "target": "part:sweat.opacity",
+   "params": [
+    "Hurt"
+   ],
+   "keys": [
+    {
+     "at": [
+      0
+     ],
+     "value": 0
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 1
+    }
+   ]
+  },
+  {
+   "id": "bandPull",
+   "target": "part:band.shape.d",
+   "params": [
+    "Pull"
+   ],
+   "keys": [
+    {
+     "at": [
+      0
+     ],
+     "value": "M 219.85 212.64 Q 228.35 220.64 236.85 212.64"
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": "M 219.85 212.64 Q 228.35 238.64 236.85 212.64"
+    }
+   ]
+  },
+  {
+   "id": "marblePull",
+   "target": "part:marble.shape.cy",
+   "params": [
+    "Pull"
+   ],
+   "keys": [
+    {
+     "at": [
+      0
+     ],
+     "value": 217.63703305156272
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 232.63703305156272
+    }
+   ]
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle",
+   "duration": 2.4,
+   "loop": true,
+   "description": "숨쉬기·고개 갸웃·팔 흔들림·날개/꼬리·눈 깜빡임",
+   "tracks": [
+    {
+     "target": "bone:root.scaleY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1.2,
+       "v": 0.978,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 2.4,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleX",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1.2,
+       "v": 1.012,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 2.4,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:head.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.6,
+       "v": 2.5,
+       "ease": "smooth"
+      },
+      {
+       "t": 1.2,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 1.8,
+       "v": -2.5,
+       "ease": "smooth"
+      },
+      {
+       "t": 2.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:armR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 105,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1.2,
+       "v": 109,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 2.4,
+       "v": 105
+      }
+     ]
+    },
+    {
+     "target": "bone:armL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 75,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1.2,
+       "v": 71,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 2.4,
+       "v": 75
+      }
+     ]
+    },
+    {
+     "target": "bone:sling.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1.2,
+       "v": 4,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 2.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:earR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.6,
+       "v": -4,
+       "ease": "smooth"
+      },
+      {
+       "t": 1.2,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 1.8,
+       "v": 3,
+       "ease": "smooth"
+      },
+      {
+       "t": 2.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:earL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.6,
+       "v": -3,
+       "ease": "smooth"
+      },
+      {
+       "t": 1.2,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 1.8,
+       "v": 4,
+       "ease": "smooth"
+      },
+      {
+       "t": 2.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:EyeOpen",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1
+      },
+      {
+       "t": 1.72,
+       "v": 1,
+       "ease": "inQuad"
+      },
+      {
+       "t": 1.8,
+       "v": 0
+      },
+      {
+       "t": 1.86,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 1.98,
+       "v": 1
+      },
+      {
+       "t": 2.4,
+       "v": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shoot",
+   "duration": 0.6,
+   "loop": false,
+   "description": "조준(새총 들고 당김) → 발사 반동",
+   "tracks": [
+    {
+     "target": "bone:root.scaleY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.3,
+       "v": 0.94,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": 1.05,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleX",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.3,
+       "v": 1.04,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": 0.97,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:hips.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.3,
+       "v": -4,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": 3,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:armL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 75,
+       "ease": "outBack"
+      },
+      {
+       "t": 0.18,
+       "v": -50,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.3,
+       "v": -50,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": -57,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 75
+      }
+     ]
+    },
+    {
+     "target": "bone:sling.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outBack"
+      },
+      {
+       "t": 0.18,
+       "v": 125,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.3,
+       "v": 125,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": 132,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:armR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 105,
+       "ease": "outBack"
+      },
+      {
+       "t": 0.18,
+       "v": -45,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.3,
+       "v": -33,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": -55,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 105
+      }
+     ]
+    },
+    {
+     "target": "bone:head.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.3,
+       "v": 4,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": -3,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:Pull",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.12,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.3,
+       "v": 1,
+       "ease": "step"
+      },
+      {
+       "t": 0.34,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:EyeOpen",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1
+      },
+      {
+       "t": 0.3,
+       "v": 1
+      },
+      {
+       "t": 0.36,
+       "v": 0.55,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.5,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "param:Mouth",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0
+      },
+      {
+       "t": 0.34,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.38,
+       "v": 0.8,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.6,
+       "v": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skill",
+   "duration": 1,
+   "loop": false,
+   "description": "필살기: 웅크림 → 점프하며 새총을 높이 → 착지",
+   "tracks": [
+    {
+     "target": "bone:root.y",
+     "keys": [
+      {
+       "t": 0,
+       "v": 364,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.14,
+       "v": 364,
+       "ease": "outCubic"
+      },
+      {
+       "t": 0.42,
+       "v": 324,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.66,
+       "v": 328,
+       "ease": "inQuad"
+      },
+      {
+       "t": 0.82,
+       "v": 364,
+       "ease": "outQuad"
+      },
+      {
+       "t": 1,
+       "v": 364
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.14,
+       "v": 0.9,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.26,
+       "v": 1.08,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.5,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.82,
+       "v": 0.91,
+       "ease": "outBack"
+      },
+      {
+       "t": 1,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleX",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.14,
+       "v": 1.07,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.26,
+       "v": 0.95,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.5,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.82,
+       "v": 1.06,
+       "ease": "outBack"
+      },
+      {
+       "t": 1,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:armL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 75,
+       "ease": "outBack"
+      },
+      {
+       "t": 0.3,
+       "v": -65,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.7,
+       "v": -65,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1,
+       "v": 75
+      }
+     ]
+    },
+    {
+     "target": "bone:sling.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outBack"
+      },
+      {
+       "t": 0.3,
+       "v": 140,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.7,
+       "v": 140,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:armR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 105,
+       "ease": "outBack"
+      },
+      {
+       "t": 0.3,
+       "v": -130,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.7,
+       "v": -123,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1,
+       "v": 105
+      }
+     ]
+    },
+    {
+     "target": "bone:head.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": -5,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.8,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:Happy",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "step"
+      },
+      {
+       "t": 0.2,
+       "v": 1,
+       "ease": "step"
+      },
+      {
+       "t": 0.9,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:Mouth",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.24,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.8,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 1,
+       "v": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hit",
+   "duration": 0.5,
+   "loop": false,
+   "description": "맞음: 움찔·흔들림·찡그림·땀",
+   "tracks": [
+    {
+     "target": "bone:root.x",
+     "keys": [
+      {
+       "t": 0,
+       "v": 190
+      },
+      {
+       "t": 0.04,
+       "v": 183,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.1,
+       "v": 196,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.16,
+       "v": 186,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.24,
+       "v": 192,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.34,
+       "v": 190
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.05,
+       "v": 0.92,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.2,
+       "v": 1.02,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleX",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.05,
+       "v": 1.06,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.2,
+       "v": 0.99,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "bone:hips.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.05,
+       "v": -6,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.3,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:head.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.05,
+       "v": -10,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.36,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:armR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 105,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.06,
+       "v": 135,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 105
+      }
+     ]
+    },
+    {
+     "target": "bone:armL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 75,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.06,
+       "v": 45,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 75
+      }
+     ]
+    },
+    {
+     "target": "bone:sling.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.06,
+       "v": 30,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:earR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.06,
+       "v": -16,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:earL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.06,
+       "v": 16,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:EyeOpen",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1,
+       "ease": "step"
+      },
+      {
+       "t": 0.04,
+       "v": 0,
+       "ease": "step"
+      },
+      {
+       "t": 0.38,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "param:Hurt",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "step"
+      },
+      {
+       "t": 0.04,
+       "v": 1,
+       "ease": "step"
+      },
+      {
+       "t": 0.42,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.5,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:Mouth",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "step"
+      },
+      {
+       "t": 0.04,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.4,
+       "v": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "win",
+   "duration": 1,
+   "loop": true,
+   "description": "승리: 두 팔 들고 깡충(반복)",
+   "tracks": [
+    {
+     "target": "bone:root.y",
+     "keys": [
+      {
+       "t": 0,
+       "v": 364,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.12,
+       "v": 360,
+       "ease": "outCubic"
+      },
+      {
+       "t": 0.5,
+       "v": 346,
+       "ease": "inCubic"
+      },
+      {
+       "t": 0.88,
+       "v": 360,
+       "ease": "inQuad"
+      },
+      {
+       "t": 1,
+       "v": 364
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0.94,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.12,
+       "v": 1.05,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.5,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.88,
+       "v": 1.04,
+       "ease": "inQuad"
+      },
+      {
+       "t": 1,
+       "v": 0.94
+      }
+     ]
+    },
+    {
+     "target": "bone:root.scaleX",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1.05,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.12,
+       "v": 0.97,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.5,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.88,
+       "v": 0.98,
+       "ease": "inQuad"
+      },
+      {
+       "t": 1,
+       "v": 1.05
+      }
+     ]
+    },
+    {
+     "target": "bone:armR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": -123,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.25,
+       "v": -137,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.5,
+       "v": -123,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.75,
+       "v": -137,
+       "ease": "smooth"
+      },
+      {
+       "t": 1,
+       "v": -123
+      }
+     ]
+    },
+    {
+     "target": "bone:armL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": -53,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.25,
+       "v": -39,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.5,
+       "v": -53,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.75,
+       "v": -39,
+       "ease": "smooth"
+      },
+      {
+       "t": 1,
+       "v": -53
+      }
+     ]
+    },
+    {
+     "target": "bone:sling.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 128,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.25,
+       "v": 114,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.5,
+       "v": 128,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.75,
+       "v": 114,
+       "ease": "smooth"
+      },
+      {
+       "t": 1,
+       "v": 128
+      }
+     ]
+    },
+    {
+     "target": "bone:head.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 3,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.5,
+       "v": -3,
+       "ease": "smooth"
+      },
+      {
+       "t": 1,
+       "v": 3
+      }
+     ]
+    },
+    {
+     "target": "bone:earR.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.5,
+       "v": -8,
+       "ease": "smooth"
+      },
+      {
+       "t": 1,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "bone:earL.rotation",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "smooth"
+      },
+      {
+       "t": 0.5,
+       "v": 8,
+       "ease": "smooth"
+      },
+      {
+       "t": 1,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:Happy",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1
+      },
+      {
+       "t": 1,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "param:Mouth",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1
+      },
+      {
+       "t": 1,
+       "v": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

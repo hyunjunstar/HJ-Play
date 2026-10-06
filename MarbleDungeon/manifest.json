@@ -107,24 +107,24 @@
     },
     {
       "file": "img/fairy_idle.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pangi, the rose fairy adventurer from the reference board: wavy shoulder-length rose-pink hair (#FF8FB5) with a brass-and-glass marble hair ornament on her right, violet eyes, plum-burgundy cropped jacket (#6B2E5A) with gold trim over a high-collared cream ruffled blouse with a small pink ribbon, layered lavender knee-length skirt (#C9A7F0), brown leather belt holding three small colored marbles (red, blue, green), brown knee boots, two small opaque pale-pink fairy wings with soft lavender tips. FULL BODY battle sprite, standing relaxed idle, gentle smile, slingshot held at her side, three-quarter view facing slightly up-right, feet together on a baseline at 96% of the image height, the whole figure fills 92% of the image height, centered.",
-      "date": "2026-10-05",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/fairy_shoot.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pangi, the rose fairy adventurer from the reference board: wavy shoulder-length rose-pink hair (#FF8FB5) with a brass-and-glass marble hair ornament on her right, violet eyes, plum-burgundy cropped jacket (#6B2E5A) with gold trim over a high-collared cream ruffled blouse with a small pink ribbon, layered lavender knee-length skirt (#C9A7F0), brown leather belt holding three small colored marbles (red, blue, green), brown knee boots, two small opaque pale-pink fairy wings with soft lavender tips. FULL BODY battle sprite, aiming the slingshot upward with both arms raised, band pulled back with a marble loaded, focused confident face still visible (not hidden by the arms), same outfit and proportions, feet on a baseline at 96% of the image height, the whole figure fills 92% of the image height.",
-      "date": "2026-10-05",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/fairy_skill.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pangi, the rose fairy adventurer from the reference board: wavy shoulder-length rose-pink hair (#FF8FB5) with a brass-and-glass marble hair ornament on her right, violet eyes, plum-burgundy cropped jacket (#6B2E5A) with gold trim over a high-collared cream ruffled blouse with a small pink ribbon, layered lavender knee-length skirt (#C9A7F0), brown leather belt holding three small colored marbles (red, blue, green), brown knee boots, two small opaque pale-pink fairy wings with soft lavender tips. FULL BODY battle sprite, special skill pose: one arm raised holding the slingshot high, joyful open-mouth smile, a little hop with the skirt fluttering, same outfit and proportions, feet near a baseline at 96% of the image height, no effects drawn.",
-      "date": "2026-10-05",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/bg_cave.webp",
@@ -387,45 +387,45 @@
     },
     {
       "file": "img/char_squirrel_idle.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Ember, a fire alchemist with squirrel motifs: long wavy auburn-orange hair (#E8692E) tied half-up, small round fluffy squirrel ears in the same color, amber eyes, a big soft fluffy squirrel tail as one clean shape with a warm coral tip, buttoned cream shirt with a collar and a small red neck scarf, burnt-orange fitted vest (#C4521F) with brass buttons, knee-length brown culottes over dark tights, brown leather gloves, a small potion vial on the belt. FULL BODY battle sprite, standing relaxed idle, gentle smile, slingshot held at her side, three-quarter view facing slightly up-right, feet together on a baseline at 96% of the image height, the whole figure fills 92% of the image height, centered.",
-      "date": "2026-10-05",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/char_squirrel_shoot.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Ember, a fire alchemist with squirrel motifs: long wavy auburn-orange hair (#E8692E) tied half-up, small round fluffy squirrel ears in the same color, amber eyes, a big soft fluffy squirrel tail as one clean shape with a warm coral tip, buttoned cream shirt with a collar and a small red neck scarf, burnt-orange fitted vest (#C4521F) with brass buttons, knee-length brown culottes over dark tights, brown leather gloves, a small potion vial on the belt. FULL BODY battle sprite, aiming the slingshot upward with both arms raised, band pulled back with a marble loaded, focused confident face still visible (not hidden by the arms), same outfit and proportions, feet on a baseline at 96% of the image height, the whole figure fills 92% of the image height.",
-      "date": "2026-10-05",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/char_squirrel_skill.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Ember, a fire alchemist with squirrel motifs: long wavy auburn-orange hair (#E8692E) tied half-up, small round fluffy squirrel ears in the same color, amber eyes, a big soft fluffy squirrel tail as one clean shape with a warm coral tip, buttoned cream shirt with a collar and a small red neck scarf, burnt-orange fitted vest (#C4521F) with brass buttons, knee-length brown culottes over dark tights, brown leather gloves, a small potion vial on the belt. FULL BODY battle sprite, special skill pose: one arm raised holding the slingshot high, joyful open-mouth smile, a little hop with the skirt fluttering, same outfit and proportions, feet near a baseline at 96% of the image height, no effects drawn.",
-      "date": "2026-10-05",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/char_pig_idle.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pinky, a cheerful merchant banker: soft pink wavy bob hair (#F4A7C4) with a small tilted black mini top hat (#3A1B3F) with a red band, little rounded pink pig-ear hair clips, rosy brown eyes, high-collared mint-and-cream striped blouse with a red bow, dark plum vest (#4A2A55) with a gold coin brooch, pleated cream knee-length skirt over opaque tights, low boots, a small round pink piggy bank on a shoulder strap. FULL BODY battle sprite, standing relaxed idle, gentle smile, slingshot held at her side, three-quarter view facing slightly up-right, feet together on a baseline at 96% of the image height, the whole figure fills 92% of the image height, centered.",
-      "date": "2026-10-05",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/char_pig_shoot.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pinky, a cheerful merchant banker: soft pink wavy bob hair (#F4A7C4) with a small tilted black mini top hat (#3A1B3F) with a red band, little rounded pink pig-ear hair clips, rosy brown eyes, high-collared mint-and-cream striped blouse with a red bow, dark plum vest (#4A2A55) with a gold coin brooch, pleated cream knee-length skirt over opaque tights, low boots, a small round pink piggy bank on a shoulder strap. FULL BODY battle sprite, aiming the slingshot upward with both arms raised, band pulled back with a marble loaded, focused confident face still visible (not hidden by the arms), same outfit and proportions, feet on a baseline at 96% of the image height, the whole figure fills 92% of the image height.",
-      "date": "2026-10-05",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/char_pig_skill.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pinky, a cheerful merchant banker: soft pink wavy bob hair (#F4A7C4) with a small tilted black mini top hat (#3A1B3F) with a red band, little rounded pink pig-ear hair clips, rosy brown eyes, high-collared mint-and-cream striped blouse with a red bow, dark plum vest (#4A2A55) with a gold coin brooch, pleated cream knee-length skirt over opaque tights, low boots, a small round pink piggy bank on a shoulder strap. FULL BODY battle sprite, special skill pose: one arm raised holding the slingshot high, joyful open-mouth smile, a little hop with the skirt fluttering, same outfit and proportions, feet near a baseline at 96% of the image height, no effects drawn.",
-      "date": "2026-10-05",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
       "size": "512x512",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/bg_lake.webp",
@@ -702,45 +702,45 @@
     },
     {
       "file": "img/portrait_pangi.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pangi, the rose fairy adventurer from the reference board: wavy shoulder-length rose-pink hair (#FF8FB5) with a brass-and-glass marble hair ornament on her right, violet eyes, plum-burgundy cropped jacket (#6B2E5A) with gold trim over a high-collared cream ruffled blouse with a small pink ribbon, layered lavender knee-length skirt (#C9A7F0), brown leather belt holding three small colored marbles (red, blue, green), brown knee boots, two small opaque pale-pink fairy wings with soft lavender tips. Home-screen portrait from head to mid-thigh, three-quarter view, warm charming smile looking at the viewer, one hand holding a glass marble near her chest, the slingshot in the other hand lowered at her side, arms kept away from the face, hair tips clearly visible, centered with 6% margin on each side.",
-      "date": "2026-10-05",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
       "size": "768x768",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/face_pangi.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pangi, the rose fairy adventurer from the reference board: wavy shoulder-length rose-pink hair (#FF8FB5) with a brass-and-glass marble hair ornament on her right, violet eyes, plum-burgundy cropped jacket (#6B2E5A) with gold trim over a high-collared cream ruffled blouse with a small pink ribbon, layered lavender knee-length skirt (#C9A7F0), brown leather belt holding three small colored marbles (red, blue, green), brown knee boots, two small opaque pale-pink fairy wings with soft lavender tips. Head-and-shoulders face icon, front three-quarter view, friendly smile, centered, the head filling 80% of the canvas.",
-      "date": "2026-10-05",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
       "size": "256x256",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/portrait_squirrel.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Ember, a fire alchemist with squirrel motifs: long wavy auburn-orange hair (#E8692E) tied half-up, small round fluffy squirrel ears in the same color, amber eyes, a big soft fluffy squirrel tail as one clean shape with a warm coral tip, buttoned cream shirt with a collar and a small red neck scarf, burnt-orange fitted vest (#C4521F) with brass buttons, knee-length brown culottes over dark tights, brown leather gloves, a small potion vial on the belt. Home-screen portrait from head to mid-thigh, three-quarter view, warm charming smile looking at the viewer, one hand holding a glass marble near her chest, the slingshot in the other hand lowered at her side, arms kept away from the face, hair tips clearly visible, centered with 6% margin on each side.",
-      "date": "2026-10-05",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
       "size": "768x768",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/face_squirrel.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Ember, a fire alchemist with squirrel motifs: long wavy auburn-orange hair (#E8692E) tied half-up, small round fluffy squirrel ears in the same color, amber eyes, a big soft fluffy squirrel tail as one clean shape with a warm coral tip, buttoned cream shirt with a collar and a small red neck scarf, burnt-orange fitted vest (#C4521F) with brass buttons, knee-length brown culottes over dark tights, brown leather gloves, a small potion vial on the belt. Head-and-shoulders face icon, front three-quarter view, friendly smile, centered, the head filling 80% of the canvas.",
-      "date": "2026-10-05",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
       "size": "256x256",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/portrait_pig.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pinky, a cheerful merchant banker: soft pink wavy bob hair (#F4A7C4) with a small tilted black mini top hat (#3A1B3F) with a red band, little rounded pink pig-ear hair clips, rosy brown eyes, high-collared mint-and-cream striped blouse with a red bow, dark plum vest (#4A2A55) with a gold coin brooch, pleated cream knee-length skirt over opaque tights, low boots, a small round pink piggy bank on a shoulder strap. Home-screen portrait from head to mid-thigh, three-quarter view, warm charming smile looking at the viewer, one hand holding a glass marble near her chest, the slingshot in the other hand lowered at her side, arms kept away from the face, hair tips clearly visible, centered with 6% margin on each side.",
-      "date": "2026-10-05",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
       "size": "768x768",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/face_pig.png",
-      "prompt": "STYLE: match the rendering style of the character on the left of the attached reference board ref_board.png exactly — a premium modern mobile gacha RPG character illustration: soft cel shading with smooth gentle gradients, warm soft light from the top-left with a subtle rim light, thin soft warm-brown lineart (not thick, not black), luminous clean skin with a light natural blush, glossy hair rendered in clean flowing lock shapes. FACE: a genuinely beautiful, refined, friendly face of an ADULT woman about 24 years old — large almond-shaped eyes with detailed clear irises, one or two soft highlights and long lashes, small delicate nose, soft lips with a warm gentle smile, slim adult jawline; cute through expression and charm, NOT a child, NOT chibi, NOT a baby face. Graceful slender adult proportions about 6.5 heads tall. OUTFIT: tasteful modest fantasy adventure outfit — high collar or ribbon tie covering the chest fully (no cleavage, no low neckline), knee-length skirt or shorts over opaque tights, low-heeled boots, no sexualized pose. AVOID: text, letters, logos, watermark, frames, background scenery, floor, plants, petals, floating particles, sparkles, glow effects, extra characters, extra fingers, deformed hands, cropped limbs, crossbow. The character carries the shared signature weapon: a Y-shaped FORK slingshot (two prongs) of polished brass and wood with a red band and a glass marble. Isolated on a perfectly flat solid pure green #00FF00 background with no shadow and no gradient; wings, if any, are OPAQUE (not see-through) so the green does not show through them. SUBJECT: Pinky, a cheerful merchant banker: soft pink wavy bob hair (#F4A7C4) with a small tilted black mini top hat (#3A1B3F) with a red band, little rounded pink pig-ear hair clips, rosy brown eyes, high-collared mint-and-cream striped blouse with a red bow, dark plum vest (#4A2A55) with a gold coin brooch, pleated cream knee-length skirt over opaque tights, low boots, a small round pink piggy bank on a shoulder strap. Head-and-shoulders face icon, front three-quarter view, friendly smile, centered, the head filling 80% of the canvas.",
-      "date": "2026-10-05",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
       "size": "256x256",
-      "note": "GPT 이미지(Codex $imagegen, gpt-5.5) 생성 → tools/key-image.ts로 배경 제거·크기 맞춤"
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     },
     {
       "file": "img/anim/fairy_idle.webp",
@@ -780,7 +780,8 @@
       "rig": "rigs/char_squirrel_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_squirrel_idle.json",
@@ -788,7 +789,8 @@
       "rig": "rigs/char_squirrel_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_squirrel_shoot.webp",
@@ -796,7 +798,8 @@
       "rig": "rigs/char_squirrel_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_squirrel_shoot.json",
@@ -804,7 +807,8 @@
       "rig": "rigs/char_squirrel_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_pig_idle.webp",
@@ -812,7 +816,8 @@
       "rig": "rigs/char_pig_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_pig_idle.json",
@@ -820,7 +825,8 @@
       "rig": "rigs/char_pig_idle.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_pig_shoot.webp",
@@ -828,7 +834,8 @@
       "rig": "rigs/char_pig_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/char_pig_shoot.json",
@@ -836,61 +843,236 @@
       "rig": "rigs/char_pig_shoot.r2d.json",
       "date": "2026-10-05",
       "size": "4096x512",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스"
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "lazy": true
     },
     {
       "file": "img/anim/portrait_pangi.webp",
-      "source": "img/portrait_pangi.png",
-      "rig": "rigs/portrait_pangi.r2d.json",
-      "date": "2026-10-05",
-      "size": "3920x1680",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
       "lazy": true
     },
     {
       "file": "img/anim/portrait_pangi.json",
-      "source": "img/portrait_pangi.png",
-      "rig": "rigs/portrait_pangi.r2d.json",
-      "date": "2026-10-05",
-      "size": "3920x1680",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
       "lazy": true
     },
     {
       "file": "img/anim/portrait_squirrel.webp",
-      "source": "img/portrait_squirrel.png",
-      "rig": "rigs/portrait_squirrel.r2d.json",
-      "date": "2026-10-05",
-      "size": "3920x1680",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
       "lazy": true
     },
     {
       "file": "img/anim/portrait_squirrel.json",
-      "source": "img/portrait_squirrel.png",
-      "rig": "rigs/portrait_squirrel.r2d.json",
-      "date": "2026-10-05",
-      "size": "3920x1680",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
       "lazy": true
     },
     {
       "file": "img/anim/portrait_pig.webp",
-      "source": "img/portrait_pig.png",
-      "rig": "rigs/portrait_pig.r2d.json",
-      "date": "2026-10-05",
-      "size": "3920x1680",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
       "lazy": true
     },
     {
       "file": "img/anim/portrait_pig.json",
-      "source": "img/portrait_pig.png",
-      "rig": "rigs/portrait_pig.r2d.json",
-      "date": "2026-10-05",
-      "size": "3920x1680",
-      "note": "Rev2D(github.com/RevStudio/Rev2D) 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 아틀라스",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
       "lazy": true
+    },
+    {
+      "file": "img/anim/char_pangi.webp",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트"
+    },
+    {
+      "file": "img/anim/char_pangi.json",
+      "source": "rigs/pangi.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트"
+    },
+    {
+      "file": "img/anim/char_squirrel.webp",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_squirrel.json",
+      "source": "rigs/squirrel.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_pig.webp",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_pig.json",
+      "source": "rigs/pig.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_rabbit.webp",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_rabbit.json",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/portrait_rabbit.webp",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/portrait_rabbit.json",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_cat.webp",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/char_cat.json",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x1792",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/portrait_cat.webp",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/anim/portrait_cat.json",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "4096x2048",
+      "note": "Rev2D(github.com/RevStudio/Rev2D) 벡터 리그를 tools/rig/build-rigs.ts로 프레임 렌더 → 스프라이트 시트",
+      "lazy": true
+    },
+    {
+      "file": "img/portrait_rabbit.png",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "768x768",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/face_rabbit.png",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "256x256",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/char_rabbit_idle.png",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "512x512",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/char_rabbit_shoot.png",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "512x512",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/char_rabbit_skill.png",
+      "source": "rigs/rabbit.r2d.json",
+      "date": "2026-10-06",
+      "size": "512x512",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/portrait_cat.png",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "768x768",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/face_cat.png",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "256x256",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/char_cat_idle.png",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "512x512",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/char_cat_shoot.png",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "512x512",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
+    },
+    {
+      "file": "img/char_cat_skill.png",
+      "source": "rigs/cat.r2d.json",
+      "date": "2026-10-06",
+      "size": "512x512",
+      "note": "Rev2D 벡터 리그 렌더(tools/rig/build-rigs.ts) — 그림 생성 아님"
     }
   ]
 }
