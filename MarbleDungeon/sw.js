@@ -3,7 +3,7 @@
 // - 화면(html)은 네트워크 우선(새 버전 즉시), 나머지는 캐시를 먼저 쓰고 뒤에서 새로 받아 갱신(stale-while-revalidate).
 const VERSION = new URL(self.location.href).searchParams.get('v') || 'dev';
 // 로즈문 개정·상점 리디자인(2026-10-07): 캐시 이름 세대를 올려 이전 방문자도 새 그림·스타일을 받는다(옛 marble-* 캐시는 activate에서 지움)
-const CACHE = `marble-rm9-${VERSION}`;
+const CACHE = `marble-rm10-${VERSION}`;
 
 /** index.html이 부르는 스크립트·스타일 + 이미지 목록(manifest.json의 images) */
 async function precacheList() {
