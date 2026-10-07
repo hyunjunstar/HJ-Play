@@ -34,6 +34,8 @@
 
 > 2026-10-07 2차(구슬 재설계): 구슬 22장을 금속 테두리 없는 3D 구체(MARBLE_STYLE: 단일 하이라이트·달빛 림라이트·발광 심볼)로 GPT-6 Astra(`$imagegen`)로 다시 만들어 덮어쓰고(이전 버전은 `.shots/polish-ref/old_marbles/`), 등급 소켓 3장(`tier_socket_*`)과 9-slice 카드 프레임 3장(`tier_card_*`, 인셋은 `frames.json`)을 새로 추가했다. 프롬프트 전문은 `assets/manifest.json`.
 
+> 2026-10-07 HUD 보강: 자원 캡슐 `capsule_res`(왼쪽 아이콘 우물), 로고 아래 문구 리본 `ribbon_tagline`(알파 페더 후처리), 작은 가격 버튼 `btn_small` 3장을 GPT-6 Astra(`$imagegen`)로 추가했다(프롬프트 전문·검수는 `assets/manifest.json`, 인셋은 `frames.json`).
+
 | 파일 | 출처 | 라이선스 |
 |---|---|---|
 | `img/rm/*` (frame_*, btn_*, plate_title, divider, bar_frame, icon_*, marble_*, block_*, pickup_*, bg_*, logo_emblem, keyart_pangi, pangi_battle_*, mascot_cat) | GPT 이미지 생성(2026-10-07, GPT-6 Astra, Codex `$imagegen`) → `tools/rm-assets.ts`로 후처리. 외부 이미지·다른 게임 자산 사용 없음 | 프로젝트 자체 제작(생성 이미지, OpenAI 이용 약관상 출력물 권리는 사용자에게 있음) |
