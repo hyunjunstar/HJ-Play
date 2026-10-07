@@ -32,6 +32,8 @@
 
 > 2026-10-07 로즈문 동굴 아트 디렉션(`docs/ART_DIRECTION.md`)에 맞춘 이미지 103장(프레임 9, 아이콘·픽업 33, 구슬 22, 블록 27, 배경 6, 로고 엠블럼 1, 키 아트·전투 포즈·마스코트 5)을 새로 만들었다. 모델은 **GPT-6 Astra**(`codex exec -m gpt-6-astra`, `$imagegen`)이며, 시안(`docs/reference/ui-target.webp`)을 잘라 낸 화면을 스타일 참고 이미지로 넣었다. 목록·프롬프트는 `tools/image-jobs-rm.mjs`, 후처리(배경 제거·번짐 제거·대칭 맞춤·9-slice 측정)는 `tools/rm-assets.ts`, 파일별 프롬프트 전문·검수 결과는 `assets/manifest.json`. 이미지 안에 글자는 없다.
 
+> 2026-10-07 2차(구슬 재설계): 구슬 22장을 금속 테두리 없는 3D 구체(MARBLE_STYLE: 단일 하이라이트·달빛 림라이트·발광 심볼)로 GPT-6 Astra(`$imagegen`)로 다시 만들어 덮어쓰고(이전 버전은 `.shots/polish-ref/old_marbles/`), 등급 소켓 3장(`tier_socket_*`)과 9-slice 카드 프레임 3장(`tier_card_*`, 인셋은 `frames.json`)을 새로 추가했다. 프롬프트 전문은 `assets/manifest.json`.
+
 | 파일 | 출처 | 라이선스 |
 |---|---|---|
 | `img/rm/*` (frame_*, btn_*, plate_title, divider, bar_frame, icon_*, marble_*, block_*, pickup_*, bg_*, logo_emblem, keyart_pangi, pangi_battle_*, mascot_cat) | GPT 이미지 생성(2026-10-07, GPT-6 Astra, Codex `$imagegen`) → `tools/rm-assets.ts`로 후처리. 외부 이미지·다른 게임 자산 사용 없음 | 프로젝트 자체 제작(생성 이미지, OpenAI 이용 약관상 출력물 권리는 사용자에게 있음) |
