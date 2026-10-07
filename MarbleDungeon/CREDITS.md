@@ -61,3 +61,5 @@
 | 라이브러리 | 라이선스 |
 | --- | --- |
 | PixiJS 8 | MIT |
+
+> 2026-10-07 로비 키 아트·캡슐: 다람쥐·돼지·토끼·고양이 전신 키 아트 4장(`keyart_squirrel/pig/rabbit/cat`, 팡이 키 아트와 같은 키·발 기준선으로 후처리)과 머리 크롭 `face_*.webp` 5장, 새 자원 캡슐 `capsule_res`(금 이중 테두리·왼쪽 우물)를 GPT-6 Astra(`$imagegen`)로 만들었다(프롬프트 `assets/manifest.json`, 작업 목록 `tools/image-jobs-rm.mjs`의 `ka_*`·`capsule2` 배치, 후처리 `tools/rm-assets.ts` charfit 모드).
