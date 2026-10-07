@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 효과음 전부(발사, 타격(연쇄 음높이 상승), 파괴, 번개, 화상, 얼음, 독, 분열, 링, 코인, 회수, 하강, 경고, 연쇄, 진화, 보스 등장·격파, 층 클리어, 패배, 버튼, 카드, 화면 전환, 숫자 틱) | 코드 합성 | 프로젝트 자체 제작 |
 | 지역별 배경음 3종(분홍 동굴·하늘색 호수·주황 공장) | 코드 합성 스텝 시퀀서(화음 진행·선율·베이스·타악) | 프로젝트 자체 제작 |
+| 2026-10-07 로즈문 개정: 효과음·배경음 전부 다시 음색 설계(오르골·첼레스타·하프·유리 종·저음 쿵), 로비 테마 + 지역별 전투 테마 3종, 크로스페이드 | Web Audio 런타임 합성(`src/platform/audio.ts`), 외부 음원 없음 | 프로젝트 자체 제작 |
 
 ## 도구
 
@@ -22,11 +23,18 @@
 | 폰트 | 출처 | 라이선스 |
 | --- | --- | --- |
 | Pretendard Variable | npm `pretendard` (https://github.com/orioncactus/pretendard), © Kil Hyung-jin | SIL Open Font License 1.1 |
-| Jua(제목·버튼) | npm `@fontsource/jua` (Google Fonts, 우아한형제들) | SIL Open Font License 1.1 |
-| Lilita One(숫자) | npm `@fontsource/lilita-one` (Google Fonts, Juan Montoreano) | SIL Open Font License 1.1 |
-| Fredoka 700 | npm `@fontsource/fredoka` (https://github.com/hafontia/Fredoka-One), © 2016 The Fredoka Project Authors | SIL Open Font License 1.1 |
+| Song Myung(제목) | npm `@fontsource/song-myung` (Google Fonts, JIKJI SOFT) | SIL Open Font License 1.1 |
+| Cinzel(숫자·라틴) | npm `@fontsource/cinzel` (Google Fonts, Natanael Gama) | SIL Open Font License 1.1 |
 
 ## 이미지
+
+### 로즈문 동굴 이미지 세트 (`assets/img/rm/`)
+
+> 2026-10-07 로즈문 동굴 아트 디렉션(`docs/ART_DIRECTION.md`)에 맞춘 이미지 103장(프레임 9, 아이콘·픽업 33, 구슬 22, 블록 27, 배경 6, 로고 엠블럼 1, 키 아트·전투 포즈·마스코트 5)을 새로 만들었다. 모델은 **GPT-6 Astra**(`codex exec -m gpt-6-astra`, `$imagegen`)이며, 시안(`docs/reference/ui-target.webp`)을 잘라 낸 화면을 스타일 참고 이미지로 넣었다. 목록·프롬프트는 `tools/image-jobs-rm.mjs`, 후처리(배경 제거·번짐 제거·대칭 맞춤·9-slice 측정)는 `tools/rm-assets.ts`, 파일별 프롬프트 전문·검수 결과는 `assets/manifest.json`. 이미지 안에 글자는 없다.
+
+| 파일 | 출처 | 라이선스 |
+|---|---|---|
+| `img/rm/*` (frame_*, btn_*, plate_title, divider, bar_frame, icon_*, marble_*, block_*, pickup_*, bg_*, logo_emblem, keyart_pangi, pangi_battle_*, mascot_cat) | GPT 이미지 생성(2026-10-07, GPT-6 Astra, Codex `$imagegen`) → `tools/rm-assets.ts`로 후처리. 외부 이미지·다른 게임 자산 사용 없음 | 프로젝트 자체 제작(생성 이미지, OpenAI 이용 약관상 출력물 권리는 사용자에게 있음) |
 
 > 2026-10-06(캐릭터 4차) 캐릭터 15장을 시안 보드 01-rose-fairy 그림체(부드러운 현대 수집형 RPG 일러스트)로 다시 그렸다. 시안 보드를 참고 이미지로 넣어 GPT 이미지 생성(Codex `$imagegen`, gpt-5.5 · `codex exec -i`), 목록·프롬프트는 `tools/image-jobs-chars-v4.mjs`와 manifest.json. 이전 그림은 `.shots/v4/img-before/`.
 > 같은 날 캐릭터 움직임(홈 일러스트 3, 전투 대기·조준 6)을 **Rev2D**로 리깅해 프레임으로 구웠다(`assets/rigs/*.r2d.json` → `assets/img/anim/*.webp`).

@@ -1,0 +1,41 @@
+{
+ "src": "block_healer_fx.webp",
+ "fw": 128,
+ "cols": 8,
+ "rows": 2,
+ "frames": 16,
+ "pad": 0.1,
+ "anims": {
+  "hit": {
+   "from": 0,
+   "times": [
+    0,
+    0.0367,
+    0.0733,
+    0.11,
+    0.1467,
+    0.1833,
+    0.22
+   ],
+   "duration": 0.22,
+   "loop": false
+  },
+  "break": {
+   "from": 7,
+   "times": [
+    0,
+    0.045,
+    0.09,
+    0.135,
+    0.18,
+    0.225,
+    0.27,
+    0.315,
+    0.36
+   ],
+   "duration": 0.36,
+   "loop": false
+  }
+ },
+ "rig": "rigs/block_healer.r2d.json"
+}

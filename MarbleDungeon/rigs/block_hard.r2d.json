@@ -1,0 +1,784 @@
+{
+ "format": "rev2d",
+ "version": 1,
+ "meta": {
+  "name": "block hard fx",
+  "width": 320,
+  "height": 320,
+  "background": "#2e1d49",
+  "fps": 30,
+  "description": "Rosemoon block monster reaction (hit wobble, break pop), baked to a small sprite atlas."
+ },
+ "parameters": [
+  {
+   "id": "Hit",
+   "min": 0,
+   "max": 1,
+   "default": 0
+  },
+  {
+   "id": "Brk",
+   "min": 0,
+   "max": 1,
+   "default": 0
+  },
+  {
+   "id": "Fade",
+   "min": 0,
+   "max": 1,
+   "default": 0
+  },
+  {
+   "id": "SqY",
+   "min": -1,
+   "max": 1,
+   "default": 0
+  },
+  {
+   "id": "Skew",
+   "min": -1,
+   "max": 1,
+   "default": 0
+  },
+  {
+   "id": "Shake",
+   "min": -1,
+   "max": 1,
+   "default": 0
+  },
+  {
+   "id": "Pop",
+   "min": 0,
+   "max": 1,
+   "default": 0
+  }
+ ],
+ "bones": [
+  {
+   "id": "root",
+   "x": 160,
+   "y": 160,
+   "length": 0
+  },
+  {
+   "id": "pop",
+   "parent": "root",
+   "x": 0,
+   "y": 0,
+   "length": 0
+  }
+ ],
+ "warps": [
+  {
+   "id": "w",
+   "parent": "pop",
+   "rect": [
+    32,
+    32,
+    256,
+    256
+   ],
+   "cols": 4,
+   "rows": 4
+  }
+ ],
+ "textures": [
+  {
+   "id": "default",
+   "path": "../img/rm/block_hard_default.png",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "id": "hit",
+   "path": "../img/rm/block_hard_hit.png",
+   "width": 256,
+   "height": 256
+  },
+  {
+   "id": "break",
+   "path": "../img/rm/block_hard_break.png",
+   "width": 256,
+   "height": 256
+  }
+ ],
+ "parts": [
+  {
+   "id": "tileDefault",
+   "parent": "w",
+   "z": 1,
+   "shape": {
+    "type": "image",
+    "texture": "default",
+    "x": 32,
+    "y": 32,
+    "cols": 12,
+    "rows": 12
+   },
+   "opacity": 1
+  },
+  {
+   "id": "tileHit",
+   "parent": "w",
+   "z": 2,
+   "shape": {
+    "type": "image",
+    "texture": "hit",
+    "x": 32,
+    "y": 32,
+    "cols": 12,
+    "rows": 12
+   },
+   "opacity": 0
+  },
+  {
+   "id": "tileBreak",
+   "parent": "w",
+   "z": 3,
+   "shape": {
+    "type": "image",
+    "texture": "break",
+    "x": 32,
+    "y": 32,
+    "cols": 12,
+    "rows": 12
+   },
+   "opacity": 0
+  }
+ ],
+ "bindings": [
+  {
+   "target": "bone:root.scaleY",
+   "params": [
+    "SqY"
+   ],
+   "keys": [
+    {
+     "at": [
+      -1
+     ],
+     "value": 1.1
+    },
+    {
+     "at": [
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 0.84
+    }
+   ]
+  },
+  {
+   "target": "bone:root.scaleX",
+   "params": [
+    "SqY"
+   ],
+   "keys": [
+    {
+     "at": [
+      -1
+     ],
+     "value": 0.93
+    },
+    {
+     "at": [
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 1.1
+    }
+   ]
+  },
+  {
+   "target": "bone:root.x",
+   "params": [
+    "Shake"
+   ],
+   "keys": [
+    {
+     "at": [
+      -1
+     ],
+     "value": 151.04
+    },
+    {
+     "at": [
+      0
+     ],
+     "value": 160
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 168.96
+    }
+   ]
+  },
+  {
+   "target": "bone:root.rotation",
+   "params": [
+    "Shake"
+   ],
+   "keys": [
+    {
+     "at": [
+      -1
+     ],
+     "value": -2.5
+    },
+    {
+     "at": [
+      0
+     ],
+     "value": 0
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 2.5
+    }
+   ]
+  },
+  {
+   "target": "bone:pop.scaleX",
+   "params": [
+    "Pop"
+   ],
+   "keys": [
+    {
+     "at": [
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 1.28
+    }
+   ]
+  },
+  {
+   "target": "bone:pop.scaleY",
+   "params": [
+    "Pop"
+   ],
+   "keys": [
+    {
+     "at": [
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 1.28
+    }
+   ]
+  },
+  {
+   "target": "warp:w.offsets",
+   "params": [
+    "Skew"
+   ],
+   "keys": [
+    {
+     "at": [
+      -1
+     ],
+     "value": {
+      "0": [
+       -11.52,
+       0
+      ],
+      "1": [
+       -11.52,
+       0
+      ],
+      "2": [
+       -11.52,
+       0
+      ],
+      "3": [
+       -11.52,
+       0
+      ],
+      "4": [
+       -11.52,
+       0
+      ],
+      "5": [
+       -5.76,
+       0
+      ],
+      "6": [
+       -5.76,
+       0
+      ],
+      "7": [
+       -5.76,
+       0
+      ],
+      "8": [
+       -5.76,
+       0
+      ],
+      "9": [
+       -5.76,
+       0
+      ],
+      "15": [
+       5.76,
+       0
+      ],
+      "16": [
+       5.76,
+       0
+      ],
+      "17": [
+       5.76,
+       0
+      ],
+      "18": [
+       5.76,
+       0
+      ],
+      "19": [
+       5.76,
+       0
+      ],
+      "20": [
+       11.52,
+       0
+      ],
+      "21": [
+       11.52,
+       0
+      ],
+      "22": [
+       11.52,
+       0
+      ],
+      "23": [
+       11.52,
+       0
+      ],
+      "24": [
+       11.52,
+       0
+      ]
+     }
+    },
+    {
+     "at": [
+      0
+     ],
+     "value": {}
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": {
+      "0": [
+       11.52,
+       0
+      ],
+      "1": [
+       11.52,
+       0
+      ],
+      "2": [
+       11.52,
+       0
+      ],
+      "3": [
+       11.52,
+       0
+      ],
+      "4": [
+       11.52,
+       0
+      ],
+      "5": [
+       5.76,
+       0
+      ],
+      "6": [
+       5.76,
+       0
+      ],
+      "7": [
+       5.76,
+       0
+      ],
+      "8": [
+       5.76,
+       0
+      ],
+      "9": [
+       5.76,
+       0
+      ],
+      "15": [
+       -5.76,
+       0
+      ],
+      "16": [
+       -5.76,
+       0
+      ],
+      "17": [
+       -5.76,
+       0
+      ],
+      "18": [
+       -5.76,
+       0
+      ],
+      "19": [
+       -5.76,
+       0
+      ],
+      "20": [
+       -11.52,
+       0
+      ],
+      "21": [
+       -11.52,
+       0
+      ],
+      "22": [
+       -11.52,
+       0
+      ],
+      "23": [
+       -11.52,
+       0
+      ],
+      "24": [
+       -11.52,
+       0
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "target": "part:tileDefault.opacity",
+   "params": [
+    "Brk"
+   ],
+   "keys": [
+    {
+     "at": [
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      1
+     ],
+     "value": 0
+    }
+   ]
+  },
+  {
+   "target": "part:tileHit.opacity",
+   "params": [
+    "Hit",
+    "Brk"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": 0
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": 0
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": 0
+    }
+   ]
+  },
+  {
+   "target": "part:tileBreak.opacity",
+   "params": [
+    "Brk",
+    "Fade"
+   ],
+   "keys": [
+    {
+     "at": [
+      0,
+      0
+     ],
+     "value": 0
+    },
+    {
+     "at": [
+      1,
+      0
+     ],
+     "value": 1
+    },
+    {
+     "at": [
+      0,
+      1
+     ],
+     "value": 0
+    },
+    {
+     "at": [
+      1,
+      1
+     ],
+     "value": 0
+    }
+   ]
+  }
+ ],
+ "animations": [
+  {
+   "id": "hit",
+   "duration": 0.22,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "param:Hit",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1
+      },
+      {
+       "t": 0.12,
+       "v": 1
+      },
+      {
+       "t": 0.22,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:SqY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.045,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.1,
+       "v": -0.55,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.155,
+       "v": 0.25,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.22,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:Skew",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.06,
+       "v": 0.5,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.12,
+       "v": -0.4,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.18,
+       "v": 0.15,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.22,
+       "v": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "duration": 0.36,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "param:Brk",
+     "keys": [
+      {
+       "t": 0,
+       "v": 1
+      },
+      {
+       "t": 0.36,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "param:Shake",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.03,
+       "v": 1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.06,
+       "v": -1,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.09,
+       "v": 0.85,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.12,
+       "v": -0.85,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.15,
+       "v": 0.5,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.18,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.36,
+       "v": 0
+      }
+     ]
+    },
+    {
+     "target": "param:SqY",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.15,
+       "v": 0.7,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.2,
+       "v": -0.4,
+       "ease": "inOutSine"
+      },
+      {
+       "t": 0.36,
+       "v": -0.2
+      }
+     ]
+    },
+    {
+     "target": "param:Pop",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0
+      },
+      {
+       "t": 0.15,
+       "v": 0,
+       "ease": "outQuad"
+      },
+      {
+       "t": 0.36,
+       "v": 1
+      }
+     ]
+    },
+    {
+     "target": "param:Fade",
+     "keys": [
+      {
+       "t": 0,
+       "v": 0
+      },
+      {
+       "t": 0.2,
+       "v": 0
+      },
+      {
+       "t": 0.36,
+       "v": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
