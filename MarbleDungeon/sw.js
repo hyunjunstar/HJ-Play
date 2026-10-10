@@ -3,7 +3,7 @@
 // - 화면(html)은 네트워크 우선(새 버전 즉시), 나머지는 캐시를 먼저 쓰고 뒤에서 새로 받아 갱신(stale-while-revalidate).
 const VERSION = new URL(self.location.href).searchParams.get('v') || 'dev';
 // 로즈문 개정·상점 리디자인(2026-10-07): 캐시 이름 세대를 올려 이전 방문자도 새 그림·스타일을 받는다(옛 marble-* 캐시는 activate에서 지움)
-const CACHE = `marble-rm41-${VERSION}`;
+const CACHE = `marble-rm42-${VERSION}`;
 
 /** index.html이 부르는 스크립트·스타일 + 이미지 목록(manifest.json의 images) */
 async function precacheList() {
@@ -30,7 +30,8 @@ self.addEventListener('install', (e) => {
       const c = await caches.open(CACHE);
       const urls = await precacheList();
       // 하나가 실패해도 나머지는 담는다
-      await Promise.all(urls.map((u) => c.add(u).catch(() => {})));
+      // cache: reload — 브라우저 HTTP 캐시(깃허브 페이지 10분)에 남은 옛 파일을 새 캐시에 담지 않게
+      await Promise.all(urls.map((u) => c.add(new Request(u, { cache: 'reload' })).catch(() => {})));
       await self.skipWaiting();
     })(),
   );
@@ -64,7 +65,8 @@ self.addEventListener('fetch', (e) => {
   e.respondWith(
     caches.open(CACHE).then(async (c) => {
       const hit = await c.match(req);
-      const fresh = fetch(req)
+      // 뒤에서 새로 받을 때도 HTTP 캐시를 거치지 않고 서버에 확인(바뀐 파일만 다시 받는다)
+      const fresh = fetch(req, { cache: 'no-cache' })
         .then((res) => {
           if (res.ok) c.put(req, res.clone());
           return res;
