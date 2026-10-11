@@ -108,7 +108,7 @@
     "detail": 6,
     "tolerance": 0.2
    },
-   "fill": "rgba(249,221,208,0.25)",
+   "fill": "rgba(253,245,237,0.25)",
    "opacity": 0
   },
   {
@@ -121,7 +121,7 @@
     "detail": 6,
     "tolerance": 0.2
    },
-   "fill": "rgba(249,221,208,0.6)",
+   "fill": "rgba(253,245,237,0.6)",
    "opacity": 0
   },
   {
@@ -147,11 +147,11 @@
     "stops": [
      [
       0,
-      "#fce8da"
+      "#fdf6ef"
      ],
      [
       1,
-      "#f9ddd0"
+      "#fdf5ed"
      ]
     ]
    },
@@ -185,7 +185,7 @@
     "detail": 6,
     "tolerance": 0.2
    },
-   "fill": "rgba(235,209,206,0.25)",
+   "fill": "rgba(254,245,238,0.25)",
    "opacity": 0
   },
   {
@@ -198,7 +198,7 @@
     "detail": 6,
     "tolerance": 0.2
    },
-   "fill": "rgba(235,209,206,0.6)",
+   "fill": "rgba(254,245,238,0.6)",
    "opacity": 0
   },
   {
@@ -224,11 +224,11 @@
     "stops": [
      [
       0,
-      "#ecd7d5"
+      "#fdf6ee"
      ],
      [
       1,
-      "#ebd1ce"
+      "#fef5ee"
      ]
     ]
    },
