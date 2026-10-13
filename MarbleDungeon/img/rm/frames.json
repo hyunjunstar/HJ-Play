@@ -263,5 +263,38 @@
       78
     ],
     "stretch": "x"
+  },
+  "ui4_ribbon_win": {
+    "w": 768,
+    "h": 168,
+    "slice": [
+      0,
+      116,
+      0,
+      116
+    ],
+    "stretch": "x"
+  },
+  "ui4_ribbon_lose": {
+    "w": 768,
+    "h": 168,
+    "slice": [
+      0,
+      113,
+      0,
+      113
+    ],
+    "stretch": "x"
+  },
+  "ui4_ribbon_boss": {
+    "w": 768,
+    "h": 163,
+    "slice": [
+      0,
+      126,
+      0,
+      126
+    ],
+    "stretch": "x"
   }
 }
