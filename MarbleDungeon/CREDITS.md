@@ -25,6 +25,18 @@
 | Pretendard Variable | npm `pretendard` (https://github.com/orioncactus/pretendard), © Kil Hyung-jin | SIL Open Font License 1.1 |
 | Song Myung(제목) | npm `@fontsource/song-myung` (Google Fonts, JIKJI SOFT) | SIL Open Font License 1.1 |
 | Cinzel(숫자·라틴) | npm `@fontsource/cinzel` (Google Fonts, Natanael Gama) | SIL Open Font License 1.1 |
+| Pretendard JP(일본어) | npm `pretendard-jp` (https://github.com/orioncactus/pretendard), © Kil Hyung-jin | SIL Open Font License 1.1 |
+| Noto Sans SC Variable(중국어 간체) | npm `@fontsource-variable/noto-sans-sc` (Google Fonts, Adobe·Google) | SIL Open Font License 1.1 |
+
+## 라이브러리
+
+| 라이브러리 | 출처 | 라이선스 |
+| --- | --- | --- |
+| PixiJS 8 | npm `pixi.js` (https://pixijs.com), © Mathew Groves, Chad Engler | MIT |
+
+## 앱 아이콘·링크 미리보기 (`assets/img/app/`)
+
+새로 생성하지 않고 기존 게임 그림을 합성했다(`scripts/make-icons.ts`): 아이콘은 팡이 얼굴(`img/rm/face_pangi.png`)을 자두빛 배경·금테 안에, 링크 미리보기(`og.png`)는 실제 첫 화면 캡처를 가운데에 두고 양옆을 같은 그림을 흐리게 채웠다.
 
 ## 이미지
 

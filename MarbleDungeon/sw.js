@@ -3,7 +3,7 @@
 // - 화면(html)은 네트워크 우선(새 버전 즉시), 나머지는 캐시를 먼저 쓰고 뒤에서 새로 받아 갱신(stale-while-revalidate).
 const VERSION = new URL(self.location.href).searchParams.get('v') || 'dev';
 // 로즈문 개정·상점 리디자인(2026-10-07): 캐시 이름 세대를 올려 이전 방문자도 새 그림·스타일을 받는다(옛 marble-* 캐시는 activate에서 지움)
-const CACHE = `marble-rm118-${VERSION}`;
+const CACHE = `marble-rm119-${VERSION}`;
 
 /** index.html이 부르는 스크립트·스타일 + 이미지 목록(manifest.json의 images) */
 async function precacheList() {
@@ -18,6 +18,8 @@ async function precacheList() {
     const list = await (await fetch('./manifest.json', { cache: 'no-store' })).json();
     // lazy: 크고 한 장만 쓰는 것(홈 일러스트 애니메이션)은 쓸 때 받아 캐시
     for (const im of list.images || []) if (!im.lazy) urls.add(`./${im.file}`);
+    // 빌드가 만든 스크립트·스타일 전부(index.html에 없는, 나중에 불러오는 조각 포함 — 첫 방문 직후 오프라인 부팅)
+    for (const f of list.code || []) urls.add(`./${f}`);
   } catch {
     /* 무시 */
   }
@@ -43,6 +45,22 @@ self.addEventListener('activate', (e) => {
       .keys()
       .then((keys) => Promise.all(keys.filter((k) => k.startsWith('marble-') && k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim()),
+  );
+});
+
+// 페이지가 서비스 워커가 켜지기 전에 받은 파일 목록을 보내오면(src/main.ts) 같은 출처 것만 캐시에 담는다
+self.addEventListener('message', (e) => {
+  const d = e.data;
+  if (!d || d.type !== 'cache-urls' || !Array.isArray(d.urls)) return;
+  e.waitUntil(
+    caches.open(CACHE).then((c) =>
+      Promise.all(
+        d.urls
+          .filter((u) => typeof u === 'string' && new URL(u).origin === location.origin)
+          .slice(0, 600)
+          .map((u) => c.match(u).then((hit) => hit || c.add(u).catch(() => {}))),
+      ),
+    ),
   );
 });
 
