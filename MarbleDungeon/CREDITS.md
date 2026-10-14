@@ -4,27 +4,19 @@
 
 ## 사운드
 
-외부에서 가져온 사운드 파일은 하나도 쓰지 않습니다. 모든 효과음과 배경음은 `src/platform/audio.ts`가 **Web Audio API로 실행 중에 직접 합성**합니다(오실레이터·필터·직접 만든 잡음 버퍼).
+외부 사운드 파일은 하나도 쓰지 않습니다(캐릭터 대사 음성은 2026-10-14 제거). 모든 효과음과 배경음은 `src/platform/audio.ts`가 **Web Audio API로 실행 중에 직접 합성**합니다(오실레이터·필터·직접 만든 잡음 버퍼).
 
 | 소리 | 만든 방식 | 라이선스 |
 | --- | --- | --- |
 | 효과음 전부(발사, 타격(연쇄 음높이 상승), 파괴, 번개, 화상, 얼음, 독, 분열, 링, 코인, 회수, 하강, 경고, 연쇄, 진화, 보스 등장·격파, 층 클리어, 패배, 버튼, 카드, 화면 전환, 숫자 틱) | 코드 합성 | 프로젝트 자체 제작 |
 | 지역별 배경음 3종(분홍 동굴·하늘색 호수·주황 공장) | 코드 합성 스텝 시퀀서(화음 진행·선율·베이스·타악) | 프로젝트 자체 제작 |
 | 2026-10-07 로즈문 개정: 효과음·배경음 전부 다시 음색 설계(오르골·첼레스타·하프·유리 종·저음 쿵), 로비 테마 + 지역별 전투 테마 3종, 크로스페이드 | Web Audio 런타임 합성(`src/platform/audio.ts`), 외부 음원 없음 | 프로젝트 자체 제작 |
-| 로비 캐릭터 대사 음성 112개(7명 × 대사 4개 × 한국어·영어·일본어·중국어, `assets/voice/*.mp3`, 2026-10-14 2차) | 로컬 GPU에서 Chatterbox Multilingual로 대사를 연기시켜 만듦(`tools/voice-gen2.py`). 캐릭터 목소리 결은 1차 자체 제작 음성(MeloTTS + WORLD/Praat, `tools/voice-gen.py`)을 참고 음성으로 씀. 녹음·외부 음성 서비스·실존 인물 목소리 없음 | 프로젝트 자체 제작(도구 라이선스는 아래 "도구" 표) |
 
 ## 도구
 
 | 도구 | 출처 | 라이선스 | 쓰임 |
 | --- | --- | --- | --- |
 | Rev2D 0.1.0 (커밋 61d0986) | https://github.com/RevStudio/Rev2D , © RevStudio | MIT | 캐릭터 리그(격자 변형·눈 깜빡임·머리카락 물리) 작성·검증·프레임 렌더. 빌드 도구로만 쓰고 게임에는 구운 그림만 들어간다 |
-| MeloTTS | https://github.com/myshell-ai/MeloTTS , © MyShell.ai | MIT | 대사 음성 읽기(빌드 도구로만, 게임에는 구운 mp3만 들어간다) |
-| Chatterbox Multilingual (chatterbox-tts) | https://github.com/resemble-ai/chatterbox , © Resemble AI | MIT | 대사 음성 연기(2차, 빌드 도구로만 — 게임에는 구운 mp3만 들어간다) |
-| UTMOS (SpeechMOS utmos22_strong) | https://github.com/tarepan/SpeechMOS | MIT | 대사 음성 자연스러움 검수(빌드 도구) |
-| WORLD 보코더 / pyworld 0.3.5 | https://github.com/mmorise/World , https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder | 수정 BSD | 대사 음성의 캐릭터 음높이·음색 바꾸기(빌드 도구) |
-| Praat (praat-parselmouth 0.4.7) | https://www.fon.hum.uva.nl/praat/ , https://github.com/YannickJadoul/Parselmouth | GPL-3.0(빌드 도구로만 사용, 결과 음성에는 코드가 들어가지 않음) | 루 목소리의 음높이·음색 바꾸기(PSOLA "Change gender") |
-| faster-whisper (Whisper medium) | https://github.com/SYSTRAN/faster-whisper , OpenAI Whisper | MIT | 대사 음성 받아 적기 검수(빌드 도구, 게임에는 들어가지 않음) |
-| LAME (lameenc) | https://pypi.org/project/lameenc/ | LGPL(인코더 도구로만 사용) | 대사 음성 mp3 인코딩(빌드 도구) |
 
 ## 폰트
 
