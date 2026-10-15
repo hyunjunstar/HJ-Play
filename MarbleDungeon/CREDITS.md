@@ -11,6 +11,7 @@
 | 효과음 전부(발사, 타격(연쇄 음높이 상승), 파괴, 번개, 화상, 얼음, 독, 분열, 링, 코인, 회수, 하강, 경고, 연쇄, 진화, 보스 등장·격파, 층 클리어, 패배, 버튼, 카드, 화면 전환, 숫자 틱) | 코드 합성 | 프로젝트 자체 제작 |
 | 지역별 배경음 3종(분홍 동굴·하늘색 호수·주황 공장) | 코드 합성 스텝 시퀀서(화음 진행·선율·베이스·타악) | 프로젝트 자체 제작 |
 | 2026-10-07 로즈문 개정: 효과음·배경음 전부 다시 음색 설계(오르골·첼레스타·하프·유리 종·저음 쿵), 로비 테마 + 지역별 전투 테마 3종, 크로스페이드 | Web Audio 런타임 합성(`src/platform/audio.ts`), 외부 음원 없음 | 프로젝트 자체 제작 |
+| 2026-10-15 게임 끝 사운드 교체: 패배 순간(하프 단3도 하강 + 작은 미끄럼, 가벼운 쿵), "한 번 더?" 창 등장(올라가는 하프 두 음 + 유리 종 + 반짝임), 최종 결과 마무리 징글(오르골 종지 IV→V→I, 약 1.5초), 배경음 덕킹·페이드(패배 0.3 → 창 0.45 → 징글 동안 0 → 로비 곡 크로스페이드) | Web Audio 런타임 합성(`src/platform/audio.ts` `sfx.over`·`sfx.reviveOffer`·`sfx.resultJingle`·`setBgmEnd`), 외부 음원 없음 | 프로젝트 자체 제작 |
 
 ## 도구
 
@@ -41,6 +42,8 @@
 ## 이미지
 
 ### 로즈문 동굴 이미지 세트 (`assets/img/rm/`)
+
+- 2026-10-15 상점 큰 배너 `banner_pass.webp`·`banner_ads.webp`·`banner_starter.webp`(캐릭터 + 보상 일러스트, 이미지 안 글자 없음)와 "한 번 더?" 창 장식 `deco_rosemoon.webp`(초승달·장미): GPT-6 Astra(`codex exec $imagegen`, `tools/image-jobs-banner.mjs`) 생성, 캐릭터는 기존 요정 그림(`fairy_*_full.png`)을 참고 이미지로 넘김. 줄이기·투명화 `tools/banner-fit.ts`, 프롬프트는 `assets/manifest.json`. 프로젝트 자체 제작
 
 > 2026-10-07 로즈문 동굴 아트 디렉션(`docs/ART_DIRECTION.md`)에 맞춘 이미지 103장(프레임 9, 아이콘·픽업 33, 구슬 22, 블록 27, 배경 6, 로고 엠블럼 1, 키 아트·전투 포즈·마스코트 5)을 새로 만들었다. 모델은 **GPT-6 Astra**(`codex exec -m gpt-6-astra`, `$imagegen`)이며, 시안(`docs/reference/ui-target.webp`)을 잘라 낸 화면을 스타일 참고 이미지로 넣었다. 목록·프롬프트는 `tools/image-jobs-rm.mjs`, 후처리(배경 제거·번짐 제거·대칭 맞춤·9-slice 측정)는 `tools/rm-assets.ts`, 파일별 프롬프트 전문·검수 결과는 `assets/manifest.json`. 이미지 안에 글자는 없다.
 
