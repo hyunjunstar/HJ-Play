@@ -296,5 +296,38 @@
       126
     ],
     "stretch": "x"
+  },
+  "g3_ribbon_win": {
+    "w": 768,
+    "h": 136,
+    "slice": [
+      0,
+      117,
+      0,
+      117
+    ],
+    "stretch": "x"
+  },
+  "g3_ribbon_lose": {
+    "w": 768,
+    "h": 136,
+    "slice": [
+      0,
+      117,
+      0,
+      117
+    ],
+    "stretch": "x"
+  },
+  "g3_ribbon_boss": {
+    "w": 768,
+    "h": 136,
+    "slice": [
+      0,
+      117,
+      0,
+      117
+    ],
+    "stretch": "x"
   }
 }
